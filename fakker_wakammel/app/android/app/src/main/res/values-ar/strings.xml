@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فكّر وكمّل</string>
+    <string name="guard_summary">يوقف الفيديو والألعاب في لحظة مناسبة ويسأل طفلك سؤالاً.</string>
+    <string name="guard_description">يستخدم «فكّر وكمّل» هذه الخدمة فقط لمعرفة التطبيق المفتوح ووقت لمس الطفل للشاشة، ليتوقف في اللحظة المناسبة ويعرض سؤالاً تعليمياً. لا يقرأ التطبيق أي محتوى على الشاشة ولا يجمعه.</string>
+    <string name="admin_label">حماية «فكّر وكمّل» من الحذف</string>
+</resources>

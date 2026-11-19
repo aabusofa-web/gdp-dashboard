@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fakker Wakammel</string>
+    <string name="guard_summary">Pauses videos and games at a good moment and asks your child a question.</string>
+    <string name="guard_description">Fakker Wakammel uses this service only to know which app is open and when the child taps, so it can pause at the right moment and show a learning question. It does not read or collect anything on the screen.</string>
+    <string name="admin_label">Fakker Wakammel uninstall protection</string>
+</resources>
