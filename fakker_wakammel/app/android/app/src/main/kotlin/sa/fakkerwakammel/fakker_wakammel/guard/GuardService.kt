@@ -108,7 +108,7 @@ class GuardService : AccessibilityService() {
             if (scheduler?.kind == ContentKind.GAME && !cls.startsWith("android.widget")) scheduler?.signal(Signal.MENU_SCREEN)
             currentClass = cls
         }
-        enforce(System.currentTimeMillis())
+        enforce(System.currentTimeMillis(), fromWindow = true)
         checkDue()
     }
 
@@ -203,7 +203,8 @@ class GuardService : AccessibilityService() {
 
     // ------------------------------------------------------------ enforcement
 
-    private fun enforce(now: Long) {
+    /** [fromWindow] = the child actively switched app (counts as an escape attempt). */
+    private fun enforce(now: Long, fromWindow: Boolean = false) {
         val childId = cfg.activeChildId(now) ?: return
         val route = store.pendingRoute
         val pkg = currentPkg
@@ -212,7 +213,7 @@ class GuardService : AccessibilityService() {
         if (route != null) {
             // A break / lock is open: anything else goes straight back to it.
             if (now - lastLaunch < 900) return
-            if (route == "quiz") {
+            if (route == "quiz" && fromWindow) {
                 store.escapeCount = store.escapeCount + 1
                 if (store.escapeCount == 3) notifier.escapeAttempts(childId, 3)
             }
