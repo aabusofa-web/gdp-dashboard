@@ -69,6 +69,8 @@ class MainActivity : FlutterActivity() {
                     }
                     "listApps" -> result.success(listApps())
                     "configChanged" -> { GuardService.instance?.reloadConfig(); result.success(null) }
+                    "diag" -> result.success(GuardService.instance?.diag() ?: mapOf("running" to false))
+                    "testSoon" -> { GuardService.instance?.testSoon(); result.success(GuardService.instance != null) }
                     "breakDone" -> {
                         store.pendingRoute = null
                         store.escapeCount = 0

@@ -197,6 +197,39 @@ class GuardService : AccessibilityService() {
         store.elapsed = 0
     }
 
+    /** Live state for the parent's "Protection status" panel. */
+    fun diag(): Map<String, Any?> {
+        val now = System.currentTimeMillis()
+        val child = cfg.activeChildId(now)
+        val s = scheduler
+        return mapOf(
+            "running" to true,
+            "mode" to cfg.deviceMode,
+            "child" to child,
+            "childName" to cfg.childName(child),
+            "hasAccess" to cfg.hasAccess(now),
+            "currentApp" to if (currentPkg.isEmpty()) "" else label(currentPkg),
+            "counting" to (child != null && isContent(currentPkg)),
+            "elapsed" to (s?.elapsed ?: store.elapsed),
+            "target" to (s?.targetSeconds ?: 0),
+            "limit" to (s?.hardLimit ?: 0),
+            "phase" to (s?.phase?.name ?: "-"),
+            "pending" to store.pendingRoute,
+            "unit" to cfg.unit,
+            "kind" to (s?.kind?.name ?: "-"),
+        )
+    }
+
+    /** "Test now": the next break comes ~6 s after the child is in a video or game. */
+    fun testSoon() {
+        val child = cfg.activeChildId(System.currentTimeMillis()) ?: return
+        ensureScheduler(child)
+        val s = scheduler ?: return
+        s.reset()
+        s.restore((s.hardLimit - s.warnSeconds - 1).coerceAtLeast(0))
+        store.elapsed = s.elapsed
+    }
+
     fun reloadConfig() {
         schedulerKey = ""
     }
