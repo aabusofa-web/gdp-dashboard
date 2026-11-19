@@ -681,6 +681,7 @@
     }
    ],
    "answer": 1,
+   "region": "SA",
    "explanation": {
     "ar": "الريال السعودي هو العملة الرسمية، ويصدره البنك المركزي السعودي (ساما).",
     "en": "The Saudi riyal, issued by the Saudi Central Bank (SAMA)."
@@ -760,6 +761,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "رؤية 2030 تهدف لتنويع مصادر الدخل وتنمية السياحة والصناعة والتقنية.",
     "en": "Vision 2030 aims to diversify income through tourism, industry and tech."
@@ -2049,6 +2051,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "الخوص حرفة تراثية تُصنع بها السلال والحُصر من سعف النخيل.",
     "en": "Khoos makes baskets and mats from palm fronds."
@@ -3919,6 +3922,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "997 للإسعاف، 998 للدفاع المدني، 999 للشرطة، و911 موحّد في بعض المناطق.",
     "en": "997 ambulance, 998 civil defence, 999 police; 911 unified in some regions."
@@ -4414,6 +4418,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "أُطلقت عام 2021 للتشجير وحماية البيئة ومواجهة التغير المناخي.",
     "en": "Launched in 2021 for afforestation and climate action."
@@ -4566,6 +4571,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "العلم أخضر وعليه الشهادتان وسيف.",
     "en": "The flag is green with the Shahada and a sword."
@@ -4602,6 +4608,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "الرياض هي العاصمة.",
     "en": "Riyadh is the capital."
@@ -4637,6 +4644,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "23 سبتمبر ذكرى توحيد المملكة عام 1932، و22 فبراير يوم التأسيس.",
     "en": "23 Sept marks unification (1932); 22 Feb is Founding Day."
@@ -4645,8 +4653,8 @@
    "source": "system"
   },
   {
-   "id": "cit-004",
-   "domain": "citizenship",
+   "id": "geo-001",
+   "domain": "geography",
    "ageBands": [
     "C"
    ],
@@ -4684,7 +4692,7 @@
    "source": "system"
   },
   {
-   "id": "cit-005",
+   "id": "cit-004",
    "domain": "citizenship",
    "ageBands": [
     "C"
@@ -4715,6 +4723,7 @@
     }
    ],
    "answer": 0,
+   "region": "SA",
    "explanation": {
     "ar": "وحّد الملك عبدالعزيز المملكة وأعلن قيامها عام 1932.",
     "en": "King Abdulaziz unified and declared the Kingdom in 1932."
@@ -4723,8 +4732,8 @@
    "source": "system"
   },
   {
-   "id": "cit-006",
-   "domain": "citizenship",
+   "id": "geo-002",
+   "domain": "geography",
    "ageBands": [
     "D"
    ],
@@ -4762,7 +4771,7 @@
    "source": "system"
   },
   {
-   "id": "cit-007",
+   "id": "cit-005",
    "domain": "citizenship",
    "ageBands": [
     "D",
@@ -4802,7 +4811,7 @@
    "source": "system"
   },
   {
-   "id": "cit-008",
+   "id": "cit-006",
    "domain": "citizenship",
    "ageBands": [
     "E"
@@ -5173,6 +5182,2577 @@
    "explanation": {
     "ar": "يرفع التركيز ويقلل الإرهاق.",
     "en": "Boosts focus and reduces fatigue."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-001",
+   "domain": "behavior",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "يا {name}، قلنا «شكراً» لمن ساعدنا.",
+    "en": "{name}, we said “thank you” to someone who helped us."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🙏",
+   "explanation": {
+    "ar": "الشكر خُلق جميل يفرح الآخرين.",
+    "en": "Saying thanks makes others happy."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-002",
+   "domain": "behavior",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "رمي الألعاب على الأرض عند الغضب.",
+    "en": "Throwing toys on the floor when angry."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 1,
+   "emoji": "🧸",
+   "explanation": {
+    "ar": "عند الغضب نتنفس بهدوء ونخبر ماما أو بابا.",
+    "en": "When angry, breathe slowly and tell a parent."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-003",
+   "domain": "behavior",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "مشاركة الألعاب مع الإخوة والأصدقاء.",
+    "en": "Sharing toys with siblings and friends."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🤝",
+   "explanation": {
+    "ar": "المشاركة تجعل اللعب أمتع.",
+    "en": "Sharing makes play more fun."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-004",
+   "domain": "behavior",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "ترتيب السرير والألعاب بعد اللعب.",
+    "en": "Tidying the bed and toys after playing."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🛏️",
+   "explanation": {
+    "ar": "النظام يجعل البيت جميلاً ويساعد الأسرة.",
+    "en": "Tidying keeps home nice and helps the family."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-005",
+   "domain": "behavior",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "يا {name}، صديقك نسي قلمه فأعطيته قلمك.",
+    "en": "{name}, your friend forgot a pen and you lent yours."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "✏️",
+   "explanation": {
+    "ar": "مساعدة الآخرين من أجمل الأخلاق.",
+    "en": "Helping others is a beautiful habit."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-006",
+   "domain": "behavior",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "الكذب على الأم حتى لا تغضب.",
+    "en": "Lying to mum so she won't be upset."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 1,
+   "emoji": "🤥",
+   "explanation": {
+    "ar": "الصدق دائماً أفضل، والاعتراف بالخطأ شجاعة.",
+    "en": "Honesty is always better; admitting mistakes is brave."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-007",
+   "domain": "behavior",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "السخرية من زميل لأن ملابسه مختلفة.",
+    "en": "Mocking a classmate because his clothes are different."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 1,
+   "emoji": "🚫",
+   "explanation": {
+    "ar": "نحترم الجميع ولا نسخر من أحد.",
+    "en": "We respect everyone and mock no one."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-008",
+   "domain": "behavior",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا نقول عندما ندخل البيت؟",
+    "en": "What do we say when entering the house?"
+   },
+   "options": [
+    {
+     "ar": "السلام عليكم",
+     "en": "Assalamu alaikum"
+    },
+    {
+     "ar": "لا شيء",
+     "en": "Nothing"
+    },
+    {
+     "ar": "وداعاً",
+     "en": "Goodbye"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🏠",
+   "explanation": {
+    "ar": "نُلقي السلام على أهل البيت.",
+    "en": "We greet the family with salam."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-009",
+   "domain": "behavior",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "مساعدة كبير السن في حمل أغراضه.",
+    "en": "Helping an elderly person carry their bags."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "👴",
+   "explanation": {
+    "ar": "احترام الكبير وتوقيره من قيمنا.",
+    "en": "Respecting elders is one of our values."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-010",
+   "domain": "behavior",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 8,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "الاعتذار عند الخطأ حتى لو لم يرك أحد.",
+    "en": "Apologising for a mistake even if no one saw it."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الأمانة مع النفس تبني شخصية قوية.",
+    "en": "Being honest with yourself builds strong character."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-011",
+   "domain": "behavior",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "أخذ شيء من البقالة دون دفع لأنه شيء صغير.",
+    "en": "Taking something small from a shop without paying."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 1,
+   "emoji": "🛒",
+   "explanation": {
+    "ar": "هذه سرقة مهما كان الشيء صغيراً.",
+    "en": "That is stealing, however small."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-012",
+   "domain": "behavior",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "الصبر على الأخ الصغير وتعليمه بهدوء.",
+    "en": "Being patient with a younger sibling and teaching calmly."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "القدوة الهادئة تعلّم أكثر من الصراخ.",
+    "en": "Calm example teaches more than shouting."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-013",
+   "domain": "behavior",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 12,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "نشر صورة زميل على الإنترنت دون إذنه للضحك.",
+    "en": "Posting a classmate's photo online without permission for laughs."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 1,
+   "emoji": "📱",
+   "explanation": {
+    "ar": "هذا تنمّر إلكتروني ويؤذي مشاعره.",
+    "en": "That's cyberbullying and hurts them."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-014",
+   "domain": "behavior",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "الغش في الاختبار مقبول إذا كان الجميع يغش.",
+    "en": "Cheating in exams is fine if everyone does it."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "الخطأ لا يصبح صواباً بكثرة فاعليه، و«من غشّنا فليس منا».",
+    "en": "Wrong doesn't become right because many do it."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "beh-015",
+   "domain": "behavior",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "الالتزام بالموعد واحترام وقت الآخرين.",
+    "en": "Being on time and respecting others' time."
+   },
+   "options": [
+    {
+     "ar": "سلوك سليم ✅",
+     "en": "Good behaviour ✅"
+    },
+    {
+     "ar": "سلوك خاطئ ❌",
+     "en": "Wrong behaviour ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "⏰",
+   "explanation": {
+    "ar": "احترام الوقت علامة احتراف ومسؤولية.",
+    "en": "Punctuality signals professionalism and responsibility."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-003",
+   "domain": "geography",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أين تعيش الجمال غالباً؟",
+    "en": "Where do camels usually live?"
+   },
+   "options": [
+    {
+     "ar": "في الصحراء",
+     "en": "In the desert"
+    },
+    {
+     "ar": "في البحر",
+     "en": "In the sea"
+    },
+    {
+     "ar": "في القطب",
+     "en": "At the pole"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🐪",
+   "explanation": {
+    "ar": "الجمل يتحمّل الحر والعطش في الصحراء.",
+    "en": "Camels handle heat and thirst in the desert."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-004",
+   "domain": "geography",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما شكل كوكب الأرض؟",
+    "en": "What shape is planet Earth?"
+   },
+   "options": [
+    {
+     "ar": "كرة",
+     "en": "A ball"
+    },
+    {
+     "ar": "مربع",
+     "en": "A square"
+    },
+    {
+     "ar": "مثلث",
+     "en": "A triangle"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🌍",
+   "explanation": {
+    "ar": "الأرض كروية الشكل تقريباً.",
+    "en": "Earth is almost a sphere."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-005",
+   "domain": "geography",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "الأرض تدور حول الشمس.",
+    "en": "The Earth goes around the Sun."
+   },
+   "options": [
+    {
+     "ar": "صح ✅",
+     "en": "True ✅"
+    },
+    {
+     "ar": "خطأ ❌",
+     "en": "False ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "☀️",
+   "explanation": {
+    "ar": "تكمل الأرض دورة حول الشمس كل سنة.",
+    "en": "Earth completes one orbit every year."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-006",
+   "domain": "geography",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم عدد قارات العالم؟",
+    "en": "How many continents are there?"
+   },
+   "options": [
+    {
+     "ar": "7",
+     "en": "7"
+    },
+    {
+     "ar": "5",
+     "en": "5"
+    },
+    {
+     "ar": "10",
+     "en": "10"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "آسيا، أفريقيا، أوروبا، أمريكا الشمالية، أمريكا الجنوبية، أستراليا، أنتاركتيكا.",
+    "en": "Asia, Africa, Europe, N. America, S. America, Australia, Antarctica."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-007",
+   "domain": "geography",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أكبر محيط في العالم؟",
+    "en": "What is the largest ocean?"
+   },
+   "options": [
+    {
+     "ar": "المحيط الهادئ",
+     "en": "Pacific"
+    },
+    {
+     "ar": "المحيط الأطلسي",
+     "en": "Atlantic"
+    },
+    {
+     "ar": "المحيط الهندي",
+     "en": "Indian"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🌊",
+   "explanation": {
+    "ar": "المحيط الهادئ يغطي نحو ثلث سطح الأرض.",
+    "en": "The Pacific covers about a third of Earth's surface."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-008",
+   "domain": "geography",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 8,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في أي قارة تقع شبه الجزيرة العربية؟",
+    "en": "On which continent is the Arabian Peninsula?"
+   },
+   "options": [
+    {
+     "ar": "آسيا",
+     "en": "Asia"
+    },
+    {
+     "ar": "أفريقيا",
+     "en": "Africa"
+    },
+    {
+     "ar": "أوروبا",
+     "en": "Europe"
+    },
+    {
+     "ar": "أستراليا",
+     "en": "Australia"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "تقع في جنوب غرب آسيا.",
+    "en": "It lies in south-west Asia."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-009",
+   "domain": "geography",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أعلى جبل في العالم؟",
+    "en": "What is the highest mountain in the world?"
+   },
+   "options": [
+    {
+     "ar": "إيفرست",
+     "en": "Everest"
+    },
+    {
+     "ar": "كليمنجارو",
+     "en": "Kilimanjaro"
+    },
+    {
+     "ar": "الألب",
+     "en": "Alps"
+    },
+    {
+     "ar": "طويق",
+     "en": "Tuwaiq"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🏔️",
+   "explanation": {
+    "ar": "ارتفاع قمة إيفرست نحو 8849 متراً.",
+    "en": "Everest is about 8,849 m high."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-010",
+   "domain": "geography",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل دولة بعاصمتها",
+    "en": "Match each country with its capital"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "السعودية",
+      "en": "Saudi Arabia"
+     },
+     "r": {
+      "ar": "الرياض",
+      "en": "Riyadh"
+     }
+    },
+    {
+     "l": {
+      "ar": "مصر",
+      "en": "Egypt"
+     },
+     "r": {
+      "ar": "القاهرة",
+      "en": "Cairo"
+     }
+    },
+    {
+     "l": {
+      "ar": "فرنسا",
+      "en": "France"
+     },
+     "r": {
+      "ar": "باريس",
+      "en": "Paris"
+     }
+    },
+    {
+     "l": {
+      "ar": "اليابان",
+      "en": "Japan"
+     },
+     "r": {
+      "ar": "طوكيو",
+      "en": "Tokyo"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-011",
+   "domain": "geography",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أكبر صحراء حارة في العالم؟",
+    "en": "What is the largest hot desert?"
+   },
+   "options": [
+    {
+     "ar": "الصحراء الكبرى",
+     "en": "Sahara"
+    },
+    {
+     "ar": "الربع الخالي",
+     "en": "Rub' al Khali"
+    },
+    {
+     "ar": "صحراء غوبي",
+     "en": "Gobi"
+    },
+    {
+     "ar": "صحراء أتاكاما",
+     "en": "Atacama"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الصحراء الكبرى في شمال أفريقيا، والربع الخالي أكبر صحراء رملية متصلة.",
+    "en": "The Sahara; the Empty Quarter is the largest continuous sand desert."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-012",
+   "domain": "geography",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "خط الاستواء يقسم الأرض إلى:",
+    "en": "The equator divides Earth into:"
+   },
+   "options": [
+    {
+     "ar": "نصف شمالي ونصف جنوبي",
+     "en": "Northern and southern halves"
+    },
+    {
+     "ar": "شرقي وغربي",
+     "en": "Eastern and western halves"
+    },
+    {
+     "ar": "قارات",
+     "en": "Continents"
+    },
+    {
+     "ar": "محيطات",
+     "en": "Oceans"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "خط الطول صفر (غرينتش) هو الذي يقسمها شرقاً وغرباً.",
+    "en": "The prime meridian divides east and west."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-013",
+   "domain": "geography",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 16,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما سبب تعاقب الليل والنهار؟",
+    "en": "What causes day and night?"
+   },
+   "options": [
+    {
+     "ar": "دوران الأرض حول محورها",
+     "en": "Earth spinning on its axis"
+    },
+    {
+     "ar": "دوران الأرض حول الشمس",
+     "en": "Earth orbiting the Sun"
+    },
+    {
+     "ar": "دوران القمر",
+     "en": "The Moon's orbit"
+    },
+    {
+     "ar": "السحب",
+     "en": "Clouds"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "دورة كاملة حول المحور كل 24 ساعة تقريباً.",
+    "en": "One full spin about every 24 hours."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "geo-014",
+   "domain": "geography",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 18,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما المضيق الذي يصل البحر الأحمر بخليج عدن؟",
+    "en": "Which strait links the Red Sea to the Gulf of Aden?"
+   },
+   "options": [
+    {
+     "ar": "باب المندب",
+     "en": "Bab el-Mandeb"
+    },
+    {
+     "ar": "هرمز",
+     "en": "Hormuz"
+    },
+    {
+     "ar": "جبل طارق",
+     "en": "Gibraltar"
+    },
+    {
+     "ar": "البوسفور",
+     "en": "Bosphorus"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "من أهم الممرات الملاحية لتجارة العالم.",
+    "en": "One of the world's key shipping lanes."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-001",
+   "domain": "history",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "من بنى الأهرامات في الجيزة؟",
+    "en": "Who built the pyramids of Giza?"
+   },
+   "options": [
+    {
+     "ar": "المصريون القدماء",
+     "en": "Ancient Egyptians"
+    },
+    {
+     "ar": "الرومان",
+     "en": "Romans"
+    },
+    {
+     "ar": "الإنجليز",
+     "en": "The English"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🔺",
+   "explanation": {
+    "ar": "بُنيت قبل أكثر من 4500 سنة.",
+    "en": "Built over 4,500 years ago."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-002",
+   "domain": "history",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "مَن العالم المسلم الملقب بـ«أبو الجبر»؟",
+    "en": "Which Muslim scholar is called the “father of algebra”?"
+   },
+   "options": [
+    {
+     "ar": "الخوارزمي",
+     "en": "Al-Khwarizmi"
+    },
+    {
+     "ar": "ابن بطوطة",
+     "en": "Ibn Battuta"
+    },
+    {
+     "ar": "الفارابي",
+     "en": "Al-Farabi"
+    },
+    {
+     "ar": "ابن خلدون",
+     "en": "Ibn Khaldun"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "ومن اسمه جاءت كلمة «خوارزمية» (Algorithm).",
+    "en": "The word “algorithm” comes from his name."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-003",
+   "domain": "history",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "متى طارت أول طائرة بمحرك (الأخوان رايت)؟",
+    "en": "When did the first powered aeroplane fly (Wright brothers)?"
+   },
+   "options": [
+    {
+     "ar": "1903",
+     "en": "1903"
+    },
+    {
+     "ar": "1803",
+     "en": "1803"
+    },
+    {
+     "ar": "1953",
+     "en": "1953"
+    },
+    {
+     "ar": "2003",
+     "en": "2003"
+    }
+   ],
+   "answer": 0,
+   "emoji": "✈️",
+   "explanation": {
+    "ar": "كانت الرحلة الأولى 12 ثانية فقط.",
+    "en": "The first flight lasted just 12 seconds."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-004",
+   "domain": "history",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ابن سينا اشتهر بكتابه:",
+    "en": "Ibn Sina is famous for his book:"
+   },
+   "options": [
+    {
+     "ar": "القانون في الطب",
+     "en": "The Canon of Medicine"
+    },
+    {
+     "ar": "المقدمة",
+     "en": "The Muqaddimah"
+    },
+    {
+     "ar": "رحلة ابن بطوطة",
+     "en": "The Travels"
+    },
+    {
+     "ar": "كليلة ودمنة",
+     "en": "Kalila wa Dimna"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "دُرّس كتابه في جامعات أوروبا قروناً.",
+    "en": "It was taught in European universities for centuries."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-005",
+   "domain": "history",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في أي عام هبط الإنسان على القمر أول مرة؟",
+    "en": "When did humans first land on the Moon?"
+   },
+   "options": [
+    {
+     "ar": "1969",
+     "en": "1969"
+    },
+    {
+     "ar": "1959",
+     "en": "1959"
+    },
+    {
+     "ar": "1979",
+     "en": "1979"
+    },
+    {
+     "ar": "1989",
+     "en": "1989"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🌕",
+   "explanation": {
+    "ar": "مهمة أبولو 11.",
+    "en": "The Apollo 11 mission."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-006",
+   "domain": "history",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما «طريق الحرير»؟",
+    "en": "What was the Silk Road?"
+   },
+   "options": [
+    {
+     "ar": "طرق تجارية قديمة بين الصين والعالم",
+     "en": "Ancient trade routes linking China to the world"
+    },
+    {
+     "ar": "نهر في الهند",
+     "en": "A river in India"
+    },
+    {
+     "ar": "مصنع حرير",
+     "en": "A silk factory"
+    },
+    {
+     "ar": "سور عظيم",
+     "en": "A great wall"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "نقل البضائع والأفكار بين الشرق والغرب.",
+    "en": "It carried goods and ideas between East and West."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-007",
+   "domain": "history",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 16,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في أي عام انتهت الحرب العالمية الثانية؟",
+    "en": "When did World War II end?"
+   },
+   "options": [
+    {
+     "ar": "1945",
+     "en": "1945"
+    },
+    {
+     "ar": "1918",
+     "en": "1918"
+    },
+    {
+     "ar": "1939",
+     "en": "1939"
+    },
+    {
+     "ar": "1950",
+     "en": "1950"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "بدأت 1939 وانتهت 1945.",
+    "en": "It ran from 1939 to 1945."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-008",
+   "domain": "history",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 18,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما «الثورة الصناعية»؟",
+    "en": "What was the Industrial Revolution?"
+   },
+   "options": [
+    {
+     "ar": "التحول إلى الإنتاج بالآلات في القرنين 18–19",
+     "en": "The shift to machine production in the 18th–19th c."
+    },
+    {
+     "ar": "ثورة سياسية",
+     "en": "A political revolt"
+    },
+    {
+     "ar": "اختراع الإنترنت",
+     "en": "The invention of the internet"
+    },
+    {
+     "ar": "حرب عالمية",
+     "en": "A world war"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🏭",
+   "explanation": {
+    "ar": "بدأت في بريطانيا وغيّرت الاقتصاد والمدن.",
+    "en": "It began in Britain and transformed economies and cities."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "his-009",
+   "domain": "history",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل عالِم بمجاله",
+    "en": "Match each scholar with his field"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "ابن الهيثم",
+      "en": "Ibn al-Haytham"
+     },
+     "r": {
+      "ar": "البصريات",
+      "en": "Optics"
+     }
+    },
+    {
+     "l": {
+      "ar": "الخوارزمي",
+      "en": "Al-Khwarizmi"
+     },
+     "r": {
+      "ar": "الجبر",
+      "en": "Algebra"
+     }
+    },
+    {
+     "l": {
+      "ar": "ابن سينا",
+      "en": "Ibn Sina"
+     },
+     "r": {
+      "ar": "الطب",
+      "en": "Medicine"
+     }
+    },
+    {
+     "l": {
+      "ar": "نيوتن",
+      "en": "Newton"
+     },
+     "r": {
+      "ar": "الجاذبية",
+      "en": "Gravity"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-001",
+   "domain": "french",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى كلمة «Bonjour»؟",
+    "en": "What does “Bonjour” mean?",
+    "fr": "Que signifie « Bonjour » ?"
+   },
+   "options": [
+    {
+     "ar": "مرحباً / صباح الخير",
+     "en": "Hello / Good morning"
+    },
+    {
+     "ar": "شكراً",
+     "en": "Thank you"
+    },
+    {
+     "ar": "مع السلامة",
+     "en": "Goodbye"
+    }
+   ],
+   "answer": 0,
+   "emoji": "👋",
+   "explanation": {
+    "ar": "Bonjour تحية فرنسية في الصباح والنهار.",
+    "en": "Bonjour is the daytime French greeting."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-002",
+   "domain": "french",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى كلمة «Merci»؟",
+    "en": "What does “Merci” mean?",
+    "fr": "Que signifie « Merci » ?"
+   },
+   "options": [
+    {
+     "ar": "شكراً",
+     "en": "Thank you"
+    },
+    {
+     "ar": "نعم",
+     "en": "Yes"
+    },
+    {
+     "ar": "لا",
+     "en": "No"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "Merci = شكراً، وMerci beaucoup = شكراً جزيلاً.",
+    "en": "Merci = thank you; merci beaucoup = thanks a lot."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-003",
+   "domain": "french",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كيف نقول «نعم» بالفرنسية؟",
+    "en": "How do you say “yes” in French?",
+    "fr": "Comment dit-on « oui » ?"
+   },
+   "options": [
+    {
+     "ar": "Oui",
+     "en": "Oui"
+    },
+    {
+     "ar": "Non",
+     "en": "Non"
+    },
+    {
+     "ar": "Merci",
+     "en": "Merci"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "Oui = نعم، Non = لا.",
+    "en": "Oui = yes, Non = no."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-004",
+   "domain": "french",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 8,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل الكلمة الفرنسية بمعناها",
+    "en": "Match the French word to its meaning",
+    "fr": "Associe chaque mot à son sens"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "Bonjour",
+      "en": "Bonjour"
+     },
+     "r": {
+      "ar": "مرحباً",
+      "en": "Hello"
+     }
+    },
+    {
+     "l": {
+      "ar": "Merci",
+      "en": "Merci"
+     },
+     "r": {
+      "ar": "شكراً",
+      "en": "Thank you"
+     }
+    },
+    {
+     "l": {
+      "ar": "Au revoir",
+      "en": "Au revoir"
+     },
+     "r": {
+      "ar": "مع السلامة",
+      "en": "Goodbye"
+     }
+    },
+    {
+     "l": {
+      "ar": "Oui",
+      "en": "Oui"
+     },
+     "r": {
+      "ar": "نعم",
+      "en": "Yes"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-005",
+   "domain": "french",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الرقم «deux»؟",
+    "en": "Which number is “deux”?",
+    "fr": "Quel nombre est « deux » ?"
+   },
+   "options": [
+    {
+     "ar": "2",
+     "en": "2"
+    },
+    {
+     "ar": "3",
+     "en": "3"
+    },
+    {
+     "ar": "10",
+     "en": "10"
+    },
+    {
+     "ar": "1",
+     "en": "1"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "un = 1، deux = 2، trois = 3.",
+    "en": "un = 1, deux = 2, trois = 3."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-006",
+   "domain": "french",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى «Le chat»؟",
+    "en": "What does “le chat” mean?",
+    "fr": "Que signifie « le chat » ?"
+   },
+   "options": [
+    {
+     "ar": "القطة",
+     "en": "The cat"
+    },
+    {
+     "ar": "الكلب",
+     "en": "The dog"
+    },
+    {
+     "ar": "البيت",
+     "en": "The house"
+    },
+    {
+     "ar": "الشجرة",
+     "en": "The tree"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🐱",
+   "explanation": {
+    "ar": "le chat = القطة، le chien = الكلب.",
+    "en": "le chat = cat, le chien = dog."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-007",
+   "domain": "french",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 12,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى «Je m'appelle Sara»؟",
+    "en": "What does “Je m'appelle Sara” mean?",
+    "fr": "Que veut dire « Je m'appelle Sara » ?"
+   },
+   "options": [
+    {
+     "ar": "اسمي سارة",
+     "en": "My name is Sara"
+    },
+    {
+     "ar": "أنا جائعة",
+     "en": "I am hungry"
+    },
+    {
+     "ar": "أين سارة؟",
+     "en": "Where is Sara?"
+    },
+    {
+     "ar": "سارة في المدرسة",
+     "en": "Sara is at school"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "Je m'appelle … = اسمي …",
+    "en": "Je m'appelle … = my name is …"
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-008",
+   "domain": "french",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى «L'école»؟",
+    "en": "What does “l'école” mean?",
+    "fr": "Que signifie « l'école » ?"
+   },
+   "options": [
+    {
+     "ar": "المدرسة",
+     "en": "School"
+    },
+    {
+     "ar": "المستشفى",
+     "en": "Hospital"
+    },
+    {
+     "ar": "السوق",
+     "en": "Market"
+    },
+    {
+     "ar": "الملعب",
+     "en": "Stadium"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🏫",
+   "explanation": {
+    "ar": "l'école = المدرسة.",
+    "en": "l'école = school."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-009",
+   "domain": "french",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "اختر الترجمة الفرنسية لـ «أنا طالب»",
+    "en": "Choose the French for “I am a student”",
+    "fr": "Traduis « I am a student »"
+   },
+   "options": [
+    {
+     "ar": "Je suis étudiant",
+     "en": "Je suis étudiant"
+    },
+    {
+     "ar": "J'ai étudiant",
+     "en": "J'ai étudiant"
+    },
+    {
+     "ar": "Je étudiant suis",
+     "en": "Je étudiant suis"
+    },
+    {
+     "ar": "Tu es étudiant",
+     "en": "Tu es étudiant"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "être (يكون): je suis، tu es، il est.",
+    "en": "être: je suis, tu es, il est."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "frn-010",
+   "domain": "french",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 16,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى «Le recyclage»؟",
+    "en": "What does “le recyclage” mean?",
+    "fr": "Que signifie « le recyclage » ?"
+   },
+   "options": [
+    {
+     "ar": "إعادة التدوير",
+     "en": "Recycling"
+    },
+    {
+     "ar": "النفايات",
+     "en": "Waste"
+    },
+    {
+     "ar": "الطاقة",
+     "en": "Energy"
+    },
+    {
+     "ar": "الماء",
+     "en": "Water"
+    }
+   ],
+   "answer": 0,
+   "emoji": "♻️",
+   "explanation": {
+    "ar": "كلمة مهمة في مجال الاستدامة.",
+    "en": "A key word in sustainability."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-012",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم تفاحة ترى؟",
+    "en": "How many apples do you see?"
+   },
+   "options": [
+    {
+     "ar": "3",
+     "en": "3"
+    },
+    {
+     "ar": "2",
+     "en": "2"
+    },
+    {
+     "ar": "4",
+     "en": "4"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🍎🍎🍎",
+   "explanation": {
+    "ar": "واحد، اثنان، ثلاثة — 3 تفاحات!",
+    "en": "One, two, three — 3 apples!"
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-013",
+   "domain": "science",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أي حيوان يقول «مياو»؟",
+    "en": "Which animal says “meow”?"
+   },
+   "options": [
+    {
+     "ar": "🐱 القطة",
+     "en": "🐱 Cat"
+    },
+    {
+     "ar": "🐶 الكلب",
+     "en": "🐶 Dog"
+    },
+    {
+     "ar": "🐮 البقرة",
+     "en": "🐮 Cow"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "القطة تقول مياو، والكلب يقول هاو.",
+    "en": "Cats meow, dogs woof."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-014",
+   "domain": "science",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "الشمس تطلع في النهار.",
+    "en": "The Sun comes out in the daytime."
+   },
+   "options": [
+    {
+     "ar": "صح ✅",
+     "en": "True ✅"
+    },
+    {
+     "ar": "خطأ ❌",
+     "en": "False ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "☀️",
+   "explanation": {
+    "ar": "في النهار نرى الشمس، وفي الليل نرى القمر والنجوم.",
+    "en": "By day we see the Sun; at night the Moon and stars."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-015",
+   "domain": "science",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "السمكة تطير في السماء.",
+    "en": "Fish fly in the sky."
+   },
+   "options": [
+    {
+     "ar": "صح ✅",
+     "en": "True ✅"
+    },
+    {
+     "ar": "خطأ ❌",
+     "en": "False ❌"
+    }
+   ],
+   "answer": 1,
+   "emoji": "🐟",
+   "explanation": {
+    "ar": "السمكة تسبح في الماء، والطيور تطير.",
+    "en": "Fish swim; birds fly."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-016",
+   "domain": "science",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "trueFalse",
+   "text": {
+    "ar": "النبات يحتاج إلى الماء ليعيش.",
+    "en": "Plants need water to live."
+   },
+   "options": [
+    {
+     "ar": "صح ✅",
+     "en": "True ✅"
+    },
+    {
+     "ar": "خطأ ❌",
+     "en": "False ❌"
+    }
+   ],
+   "answer": 0,
+   "emoji": "🌱",
+   "explanation": {
+    "ar": "بدون ماء يذبل النبات.",
+    "en": "Without water plants wilt."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-017",
+   "domain": "science",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل حيوان ببيته",
+    "en": "Match each animal to its home"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "🐦",
+      "en": "🐦"
+     },
+     "r": {
+      "ar": "عُش",
+      "en": "Nest"
+     }
+    },
+    {
+     "l": {
+      "ar": "🐝",
+      "en": "🐝"
+     },
+     "r": {
+      "ar": "خلية",
+      "en": "Hive"
+     }
+    },
+    {
+     "l": {
+      "ar": "🐟",
+      "en": "🐟"
+     },
+     "r": {
+      "ar": "ماء",
+      "en": "Water"
+     }
+    },
+    {
+     "l": {
+      "ar": "🐄",
+      "en": "🐄"
+     },
+     "r": {
+      "ar": "حظيرة",
+      "en": "Barn"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-013",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل رقم بعدد التفاحات",
+    "en": "Match each number with the apples"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "1",
+      "en": "1"
+     },
+     "r": {
+      "ar": "🍎",
+      "en": "🍎"
+     }
+    },
+    {
+     "l": {
+      "ar": "2",
+      "en": "2"
+     },
+     "r": {
+      "ar": "🍎🍎",
+      "en": "🍎🍎"
+     }
+    },
+    {
+     "l": {
+      "ar": "3",
+      "en": "3"
+     },
+     "r": {
+      "ar": "🍎🍎🍎",
+      "en": "🍎🍎🍎"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-010",
+   "domain": "english",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل الكلمة بالصورة",
+    "en": "Match the word to the picture"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "Cat",
+      "en": "Cat"
+     },
+     "r": {
+      "ar": "🐱",
+      "en": "🐱"
+     }
+    },
+    {
+     "l": {
+      "ar": "Dog",
+      "en": "Dog"
+     },
+     "r": {
+      "ar": "🐶",
+      "en": "🐶"
+     }
+    },
+    {
+     "l": {
+      "ar": "Sun",
+      "en": "Sun"
+     },
+     "r": {
+      "ar": "☀️",
+      "en": "☀️"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-011",
+   "domain": "crafts",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل أداة بصاحب المهنة",
+    "en": "Match each tool with the job"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "🪚 منشار",
+      "en": "🪚 Saw"
+     },
+     "r": {
+      "ar": "نجّار",
+      "en": "Carpenter"
+     }
+    },
+    {
+     "l": {
+      "ar": "✂️ مقص",
+      "en": "✂️ Scissors"
+     },
+     "r": {
+      "ar": "خيّاط",
+      "en": "Tailor"
+     }
+    },
+    {
+     "l": {
+      "ar": "🩺 سماعة",
+      "en": "🩺 Stethoscope"
+     },
+     "r": {
+      "ar": "طبيب",
+      "en": "Doctor"
+     }
+    },
+    {
+     "l": {
+      "ar": "🌱 مجرفة",
+      "en": "🌱 Shovel"
+     },
+     "r": {
+      "ar": "مزارع",
+      "en": "Farmer"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-009",
+   "domain": "arabic",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل كلمة بعكسها",
+    "en": "Match each word with its opposite"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "كبير",
+      "en": "كبير"
+     },
+     "r": {
+      "ar": "صغير",
+      "en": "صغير"
+     }
+    },
+    {
+     "l": {
+      "ar": "طويل",
+      "en": "طويل"
+     },
+     "r": {
+      "ar": "قصير",
+      "en": "قصير"
+     }
+    },
+    {
+     "l": {
+      "ar": "ساخن",
+      "en": "ساخن"
+     },
+     "r": {
+      "ar": "بارد",
+      "en": "بارد"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-010",
+   "domain": "economy",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 12,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل مصطلح بمعناه",
+    "en": "Match each term to its meaning"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "الإيراد",
+      "en": "Revenue"
+     },
+     "r": {
+      "ar": "المال الداخل من المبيعات",
+      "en": "Money in from sales"
+     }
+    },
+    {
+     "l": {
+      "ar": "التكلفة",
+      "en": "Cost"
+     },
+     "r": {
+      "ar": "المال المصروف للإنتاج",
+      "en": "Money spent to produce"
+     }
+    },
+    {
+     "l": {
+      "ar": "الربح",
+      "en": "Profit"
+     },
+     "r": {
+      "ar": "الإيراد ناقص التكلفة",
+      "en": "Revenue minus cost"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-011",
+   "domain": "english",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل كلمة بمرادفها",
+    "en": "Match each word with its synonym"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "big",
+      "en": "big"
+     },
+     "r": {
+      "ar": "large",
+      "en": "large"
+     }
+    },
+    {
+     "l": {
+      "ar": "fast",
+      "en": "fast"
+     },
+     "r": {
+      "ar": "quick",
+      "en": "quick"
+     }
+    },
+    {
+     "l": {
+      "ar": "happy",
+      "en": "happy"
+     },
+     "r": {
+      "ar": "glad",
+      "en": "glad"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-011",
+   "domain": "environment",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "match",
+   "text": {
+    "ar": "صِل كل نفاية بالحاوية الصحيحة",
+    "en": "Match each item to the right bin"
+   },
+   "pairs": [
+    {
+     "l": {
+      "ar": "🥫 علبة",
+      "en": "🥫 Can"
+     },
+     "r": {
+      "ar": "معادن",
+      "en": "Metal"
+     }
+    },
+    {
+     "l": {
+      "ar": "📰 جريدة",
+      "en": "📰 Newspaper"
+     },
+     "r": {
+      "ar": "ورق",
+      "en": "Paper"
+     }
+    },
+    {
+     "l": {
+      "ar": "🍌 قشر موز",
+      "en": "🍌 Peel"
+     },
+     "r": {
+      "ar": "عضوي",
+      "en": "Organic"
+     }
+    },
+    {
+     "l": {
+      "ar": "🍾 قارورة زجاج",
+      "en": "🍾 Glass bottle"
+     },
+     "r": {
+      "ar": "زجاج",
+      "en": "Glass"
+     }
+    }
+   ],
+   "explanation": {
+    "ar": "",
+    "en": ""
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-010",
+   "domain": "arabic",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع حرف «أ» بإصبعك",
+    "en": "Trace the letter “أ” with your finger"
+   },
+   "trace": "أ",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-011",
+   "domain": "arabic",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع حرف «ب» بإصبعك",
+    "en": "Trace the letter “ب” with your finger"
+   },
+   "trace": "ب",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-012",
+   "domain": "arabic",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع حرف «م» بإصبعك",
+    "en": "Trace the letter “م” with your finger"
+   },
+   "trace": "م",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-013",
+   "domain": "arabic",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع حرف «ج» بإصبعك",
+    "en": "Trace the letter “ج” with your finger"
+   },
+   "trace": "ج",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-014",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع رقم «1» بإصبعك",
+    "en": "Trace the number “1” with your finger"
+   },
+   "trace": "1",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-015",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع رقم «2» بإصبعك",
+    "en": "Trace the number “2” with your finger"
+   },
+   "trace": "2",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-016",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع رقم «3» بإصبعك",
+    "en": "Trace the number “3” with your finger"
+   },
+   "trace": "3",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-017",
+   "domain": "math",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع رقم «5» بإصبعك",
+    "en": "Trace the number “5” with your finger"
+   },
+   "trace": "5",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-012",
+   "domain": "english",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع حرف «A» بإصبعك",
+    "en": "Trace the letter “A” with your finger"
+   },
+   "trace": "A",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-013",
+   "domain": "english",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "trace",
+   "text": {
+    "ar": "تتبّع حرف «B» بإصبعك",
+    "en": "Trace the letter “B” with your finger"
+   },
+   "trace": "B",
+   "explanation": {
+    "ar": "أحسنت! الكتابة باليد تقوّي الذاكرة.",
+    "en": "Great! Writing by hand strengthens memory."
    },
    "status": "published",
    "source": "system"

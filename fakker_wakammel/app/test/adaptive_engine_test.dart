@@ -29,8 +29,20 @@ void main() {
       expect(bank.where((q) => q.ageBands.contains(b)).length, greaterThan(20), reason: '$b thin');
     }
     for (final q in bank) {
-      expect(q.answer, inInclusiveRange(0, q.options.length - 1));
       expect(q.text.ar.isNotEmpty && q.text.en.isNotEmpty, isTrue, reason: q.id);
+      switch (q.type) {
+        case QuestionType.mcq:
+          expect(q.answer, inInclusiveRange(0, q.options.length - 1), reason: q.id);
+        case QuestionType.trueFalse:
+          expect(q.options.length, 2, reason: q.id);
+        case QuestionType.match:
+          expect(q.pairs.length, greaterThanOrEqualTo(3), reason: q.id);
+        case QuestionType.trace:
+          expect(q.traceTarget, isNotEmpty, reason: q.id);
+      }
+    }
+    for (final t in QuestionType.values) {
+      expect(bank.any((q) => q.type == t), isTrue, reason: '$t missing');
     }
   });
 
@@ -94,12 +106,12 @@ void main() {
 
   test('a mastered question does not come back for 30 days', () {
     final e = AdaptiveEngine(random: Random(7));
-    final k = child(age: 7);
+    final k = child(age: 7)..domains = {Domain.math};
     final history = <AttemptLog>[];
     final seen = <String>{};
     // Answer everything correctly first try; no repeats should occur while unseen ones remain.
     for (var i = 0; i < 20; i++) {
-      final q = e.nextQuestion(child: k, bank: bank, history: history, now: now, enabledDomains: {Domain.math})!;
+      final q = e.nextQuestion(child: k, bank: bank, history: history, now: now)!;
       if (q.domain == Domain.math && q.ageBands.contains(AgeBand.b)) {
         expect(seen.contains(q.id), isFalse, reason: 'repeated ${q.id} too early');
       }
