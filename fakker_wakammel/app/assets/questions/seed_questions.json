@@ -1,0 +1,5181 @@
+{
+ "version": 1,
+ "questions": [
+  {
+   "id": "rel-001",
+   "domain": "religion",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم عدد الصلوات المفروضة في اليوم؟",
+    "en": "How many obligatory prayers are there each day?"
+   },
+   "options": [
+    {
+     "ar": "ثلاث",
+     "en": "Three"
+    },
+    {
+     "ar": "خمس",
+     "en": "Five"
+    },
+    {
+     "ar": "سبع",
+     "en": "Seven"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "الصلوات المفروضة خمس: الفجر والظهر والعصر والمغرب والعشاء.",
+    "en": "There are five: Fajr, Dhuhr, Asr, Maghrib and Isha."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-002",
+   "domain": "religion",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا نقول قبل أن نأكل؟",
+    "en": "What do we say before eating?"
+   },
+   "options": [
+    {
+     "ar": "بسم الله",
+     "en": "Bismillah"
+    },
+    {
+     "ar": "مع السلامة",
+     "en": "Goodbye"
+    },
+    {
+     "ar": "صباح الخير",
+     "en": "Good morning"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "نقول: بسم الله قبل الطعام، والحمد لله بعده.",
+    "en": "We say Bismillah before eating and Alhamdulillah after."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-003",
+   "domain": "religion",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في أي مدينة توجد الكعبة؟",
+    "en": "In which city is the Kaaba?"
+   },
+   "options": [
+    {
+     "ar": "مكة المكرمة",
+     "en": "Makkah"
+    },
+    {
+     "ar": "الرياض",
+     "en": "Riyadh"
+    },
+    {
+     "ar": "جدة",
+     "en": "Jeddah"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الكعبة المشرفة في المسجد الحرام بمكة المكرمة.",
+    "en": "The Kaaba is in Al-Masjid Al-Haram in Makkah."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-004",
+   "domain": "religion",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في أي شهر يصوم المسلمون؟",
+    "en": "In which month do Muslims fast?"
+   },
+   "options": [
+    {
+     "ar": "شعبان",
+     "en": "Sha'ban"
+    },
+    {
+     "ar": "رمضان",
+     "en": "Ramadan"
+    },
+    {
+     "ar": "محرم",
+     "en": "Muharram"
+    },
+    {
+     "ar": "رجب",
+     "en": "Rajab"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "صيام شهر رمضان هو الركن الرابع من أركان الإسلام.",
+    "en": "Fasting Ramadan is the fourth pillar of Islam."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-005",
+   "domain": "religion",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أول ركن من أركان الإسلام؟",
+    "en": "What is the first pillar of Islam?"
+   },
+   "options": [
+    {
+     "ar": "الصلاة",
+     "en": "Prayer"
+    },
+    {
+     "ar": "الشهادتان",
+     "en": "The Shahada"
+    },
+    {
+     "ar": "الزكاة",
+     "en": "Zakat"
+    },
+    {
+     "ar": "الحج",
+     "en": "Hajj"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "أركان الإسلام: الشهادتان، الصلاة، الزكاة، الصوم، الحج.",
+    "en": "Pillars: Shahada, prayer, zakat, fasting, Hajj."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-006",
+   "domain": "religion",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 8,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم عدد سور القرآن الكريم؟",
+    "en": "How many surahs are in the Quran?"
+   },
+   "options": [
+    {
+     "ar": "100",
+     "en": "100"
+    },
+    {
+     "ar": "114",
+     "en": "114"
+    },
+    {
+     "ar": "120",
+     "en": "120"
+    },
+    {
+     "ar": "99",
+     "en": "99"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "القرآن الكريم 114 سورة، أولها الفاتحة وآخرها الناس.",
+    "en": "The Quran has 114 surahs, from Al-Fatiha to An-Nas."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-007",
+   "domain": "religion",
+   "ageBands": [
+    "C",
+    "D"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أول كلمة نزلت من القرآن؟",
+    "en": "What was the first word of the Quran revealed?"
+   },
+   "options": [
+    {
+     "ar": "اقرأ",
+     "en": "Iqra (Read)"
+    },
+    {
+     "ar": "الحمد",
+     "en": "Al-Hamd"
+    },
+    {
+     "ar": "قل",
+     "en": "Qul (Say)"
+    },
+    {
+     "ar": "يا أيها",
+     "en": "O you"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "أول ما نزل: \"اقرأ باسم ربك الذي خلق\" في غار حراء.",
+    "en": "The first revelation was \"Read in the name of your Lord\" in the cave of Hira."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-008",
+   "domain": "religion",
+   "ageBands": [
+    "C",
+    "D"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "إلى أي مدينة هاجر النبي ﷺ؟",
+    "en": "To which city did the Prophet ﷺ migrate?"
+   },
+   "options": [
+    {
+     "ar": "الطائف",
+     "en": "Taif"
+    },
+    {
+     "ar": "المدينة المنورة",
+     "en": "Madinah"
+    },
+    {
+     "ar": "القدس",
+     "en": "Jerusalem"
+    },
+    {
+     "ar": "دمشق",
+     "en": "Damascus"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "هاجر النبي ﷺ من مكة إلى المدينة المنورة، وبها بدأ التقويم الهجري.",
+    "en": "He migrated from Makkah to Madinah; the Hijri calendar starts from it."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-009",
+   "domain": "religion",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما نسبة زكاة المال (النقود) إذا بلغت النصاب وحال عليها الحول؟",
+    "en": "What is the zakat rate on money that reaches nisab for a full year?"
+   },
+   "options": [
+    {
+     "ar": "1%",
+     "en": "1%"
+    },
+    {
+     "ar": "2.5%",
+     "en": "2.5%"
+    },
+    {
+     "ar": "5%",
+     "en": "5%"
+    },
+    {
+     "ar": "10%",
+     "en": "10%"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "زكاة النقود ربع العُشر أي 2.5%.",
+    "en": "Zakat on money is one quarter of a tenth: 2.5%."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-010",
+   "domain": "religion",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أطول سورة في القرآن الكريم؟",
+    "en": "What is the longest surah in the Quran?"
+   },
+   "options": [
+    {
+     "ar": "آل عمران",
+     "en": "Al-Imran"
+    },
+    {
+     "ar": "البقرة",
+     "en": "Al-Baqarah"
+    },
+    {
+     "ar": "النساء",
+     "en": "An-Nisa"
+    },
+    {
+     "ar": "الكهف",
+     "en": "Al-Kahf"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "سورة البقرة أطول السور، وعدد آياتها 286 آية.",
+    "en": "Al-Baqarah is the longest, with 286 verses."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-011",
+   "domain": "religion",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 16,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في أي شهر هجري يؤدَّى الحج؟",
+    "en": "In which Hijri month is Hajj performed?"
+   },
+   "options": [
+    {
+     "ar": "رمضان",
+     "en": "Ramadan"
+    },
+    {
+     "ar": "شوال",
+     "en": "Shawwal"
+    },
+    {
+     "ar": "ذو الحجة",
+     "en": "Dhul-Hijjah"
+    },
+    {
+     "ar": "محرم",
+     "en": "Muharram"
+    }
+   ],
+   "answer": 2,
+   "explanation": {
+    "ar": "مناسك الحج في أيام من شهر ذي الحجة، ويوم عرفة هو التاسع منه.",
+    "en": "Hajj rites take place in Dhul-Hijjah; the Day of Arafah is the 9th."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-012",
+   "domain": "religion",
+   "ageBands": [
+    "B",
+    "C",
+    "D"
+   ],
+   "difficulty": 8,
+   "gender": "male",
+   "type": "mcq",
+   "text": {
+    "ar": "صلاة الجمعة تجب جماعةً في المسجد على من؟",
+    "en": "Friday prayer in congregation is obligatory upon whom?"
+   },
+   "options": [
+    {
+     "ar": "الرجال البالغين",
+     "en": "Adult men"
+    },
+    {
+     "ar": "الأطفال فقط",
+     "en": "Children only"
+    },
+    {
+     "ar": "لا أحد",
+     "en": "No one"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "صلاة الجمعة واجبة على الرجل البالغ المقيم، وتُصلى ركعتين بعد الخطبة.",
+    "en": "Jumu'ah is obligatory on adult resident men: two rak'ahs after the sermon."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "rel-013",
+   "domain": "religion",
+   "ageBands": [
+    "C",
+    "D",
+    "E"
+   ],
+   "difficulty": 11,
+   "gender": "female",
+   "type": "mcq",
+   "text": {
+    "ar": "السيدة خديجة رضي الله عنها كانت تعمل في:",
+    "en": "Khadijah (may Allah be pleased with her) worked in:"
+   },
+   "options": [
+    {
+     "ar": "التجارة",
+     "en": "Trade"
+    },
+    {
+     "ar": "الزراعة",
+     "en": "Farming"
+    },
+    {
+     "ar": "الطب",
+     "en": "Medicine"
+    },
+    {
+     "ar": "التعليم",
+     "en": "Teaching"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "كانت سيدة أعمال ناجحة تُدير قوافل تجارية، وهي أول من آمن بالنبي ﷺ.",
+    "en": "She was a successful businesswoman running trade caravans, and the first to believe in the Prophet ﷺ."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-001",
+   "domain": "economy",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أين نشتري الخبز؟",
+    "en": "Where do we buy bread?"
+   },
+   "options": [
+    {
+     "ar": "من المخبز",
+     "en": "From the bakery"
+    },
+    {
+     "ar": "من المستشفى",
+     "en": "From the hospital"
+    },
+    {
+     "ar": "من المدرسة",
+     "en": "From the school"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المخبز يصنع الخبز ويبيعه.",
+    "en": "The bakery makes and sells bread."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-002",
+   "domain": "economy",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "لماذا نذهب إلى العمل؟",
+    "en": "Why do people go to work?"
+   },
+   "options": [
+    {
+     "ar": "لنكسب المال ونفيد الناس",
+     "en": "To earn money and help others"
+    },
+    {
+     "ar": "لننام",
+     "en": "To sleep"
+    },
+    {
+     "ar": "للعب فقط",
+     "en": "Only to play"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "العمل يوفر دخلاً للأسرة ويقدّم خدمة للمجتمع.",
+    "en": "Work earns income and provides services to society."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-003",
+   "domain": "economy",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "إذا كثر الطلب على لعبة وقلّت الكمية في المتاجر، ماذا يحدث لسعرها غالباً؟",
+    "en": "If many people want a toy but stores have few, what usually happens to its price?"
+   },
+   "options": [
+    {
+     "ar": "يرتفع",
+     "en": "It goes up"
+    },
+    {
+     "ar": "ينخفض",
+     "en": "It goes down"
+    },
+    {
+     "ar": "لا يتغير",
+     "en": "It stays the same"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "قانون العرض والطلب: كثرة الطلب مع قلة المعروض ترفع السعر.",
+    "en": "Supply and demand: high demand with low supply raises prices."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-004",
+   "domain": "economy",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى \"التضخم\"؟",
+    "en": "What does \"inflation\" mean?"
+   },
+   "options": [
+    {
+     "ar": "ارتفاع عام في الأسعار",
+     "en": "A general rise in prices"
+    },
+    {
+     "ar": "زيادة عدد السكان",
+     "en": "Population growth"
+    },
+    {
+     "ar": "انخفاض الأسعار",
+     "en": "Falling prices"
+    },
+    {
+     "ar": "زيادة الرواتب فقط",
+     "en": "Only salaries rising"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "التضخم يعني أن المال نفسه يشتري أشياء أقل مع الوقت.",
+    "en": "Inflation means the same money buys less over time."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-005",
+   "domain": "economy",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما العملة الرسمية للمملكة العربية السعودية؟",
+    "en": "What is the official currency of Saudi Arabia?"
+   },
+   "options": [
+    {
+     "ar": "الدرهم",
+     "en": "Dirham"
+    },
+    {
+     "ar": "الريال",
+     "en": "Riyal"
+    },
+    {
+     "ar": "الدينار",
+     "en": "Dinar"
+    },
+    {
+     "ar": "الجنيه",
+     "en": "Pound"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "الريال السعودي هو العملة الرسمية، ويصدره البنك المركزي السعودي (ساما).",
+    "en": "The Saudi riyal, issued by the Saudi Central Bank (SAMA)."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-006",
+   "domain": "economy",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا يقيس \"الناتج المحلي الإجمالي\"؟",
+    "en": "What does GDP measure?"
+   },
+   "options": [
+    {
+     "ar": "قيمة السلع والخدمات المنتجة في الدولة خلال سنة",
+     "en": "Value of goods and services produced in a country in a year"
+    },
+    {
+     "ar": "عدد السكان",
+     "en": "Population"
+    },
+    {
+     "ar": "مساحة الدولة",
+     "en": "Country area"
+    },
+    {
+     "ar": "حجم الديون",
+     "en": "Total debt"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الناتج المحلي الإجمالي أهم مقياس لحجم اقتصاد الدولة.",
+    "en": "GDP is the main measure of an economy's size."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-007",
+   "domain": "economy",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما هي \"رؤية السعودية 2030\"؟",
+    "en": "What is Saudi Vision 2030?"
+   },
+   "options": [
+    {
+     "ar": "خطة لتنويع الاقتصاد وتقليل الاعتماد على النفط",
+     "en": "A plan to diversify the economy beyond oil"
+    },
+    {
+     "ar": "مسابقة رياضية",
+     "en": "A sports competition"
+    },
+    {
+     "ar": "اسم قمر صناعي",
+     "en": "A satellite name"
+    },
+    {
+     "ar": "نظام مروري",
+     "en": "A traffic law"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "رؤية 2030 تهدف لتنويع مصادر الدخل وتنمية السياحة والصناعة والتقنية.",
+    "en": "Vision 2030 aims to diversify income through tourism, industry and tech."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-008",
+   "domain": "economy",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "عندما يرفع البنك المركزي سعر الفائدة، فالهدف غالباً:",
+    "en": "When a central bank raises interest rates, the goal is usually to:"
+   },
+   "options": [
+    {
+     "ar": "خفض التضخم",
+     "en": "Reduce inflation"
+    },
+    {
+     "ar": "زيادة الاقتراض",
+     "en": "Increase borrowing"
+    },
+    {
+     "ar": "طباعة نقود أكثر",
+     "en": "Print more money"
+    },
+    {
+     "ar": "رفع الأسعار",
+     "en": "Raise prices"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "رفع الفائدة يقلل الاقتراض والإنفاق فيخفّ ارتفاع الأسعار.",
+    "en": "Higher rates reduce borrowing and spending, cooling inflation."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eco-009",
+   "domain": "economy",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 18,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "\"تكلفة الفرصة البديلة\" تعني:",
+    "en": "\"Opportunity cost\" means:"
+   },
+   "options": [
+    {
+     "ar": "قيمة أفضل بديل تخليت عنه عند اتخاذ قرار",
+     "en": "The value of the best alternative you gave up"
+    },
+    {
+     "ar": "سعر السلعة",
+     "en": "The price of a product"
+    },
+    {
+     "ar": "الضريبة",
+     "en": "A tax"
+    },
+    {
+     "ar": "ربح الشركة",
+     "en": "Company profit"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "مثال: إن قضيت ساعتين في اللعب فتكلفتهما هي ما كنت ستنجزه في المذاكرة.",
+    "en": "E.g. two hours of gaming cost you the studying you could have done."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-001",
+   "domain": "commerce",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "اشتريت حلوى بريال وأعطيت البائع ريالين. كم يرجع لك؟",
+    "en": "Candy costs 1 riyal and you pay 2. How much change do you get?"
+   },
+   "options": [
+    {
+     "ar": "ريال واحد",
+     "en": "1 riyal"
+    },
+    {
+     "ar": "ريالان",
+     "en": "2 riyals"
+    },
+    {
+     "ar": "لا شيء",
+     "en": "Nothing"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "2 − 1 = 1 ريال.",
+    "en": "2 − 1 = 1 riyal."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-002",
+   "domain": "commerce",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "اشترى أحمد قلماً بـ 3 ريال وباعه بـ 5 ريال. كم ربح؟",
+    "en": "Ahmed bought a pen for 3 and sold it for 5 riyals. What was his profit?"
+   },
+   "options": [
+    {
+     "ar": "ريالان",
+     "en": "2 riyals"
+    },
+    {
+     "ar": "8 ريال",
+     "en": "8 riyals"
+    },
+    {
+     "ar": "3 ريال",
+     "en": "3 riyals"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الربح = سعر البيع − سعر الشراء = 5 − 3 = 2.",
+    "en": "Profit = selling price − cost = 5 − 3 = 2."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-003",
+   "domain": "commerce",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أهم شيء يجعل الزبون يعود للمتجر؟",
+    "en": "What most makes a customer come back to a shop?"
+   },
+   "options": [
+    {
+     "ar": "الأمانة والخدمة الجيدة",
+     "en": "Honesty and good service"
+    },
+    {
+     "ar": "رفع الأسعار",
+     "en": "Raising prices"
+    },
+    {
+     "ar": "إغلاق المتجر مبكراً",
+     "en": "Closing early"
+    },
+    {
+     "ar": "عدم الرد على الأسئلة",
+     "en": "Ignoring questions"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الثقة والخدمة الممتازة أساس نجاح أي تجارة.",
+    "en": "Trust and great service are the basis of any successful business."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-004",
+   "domain": "commerce",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "متجر باع 20 قطعة بسعر 10 ريال، وتكاليفه 120 ريال. كم صافي الربح؟",
+    "en": "A shop sold 20 items at 10 riyals; costs were 120. What is the net profit?"
+   },
+   "options": [
+    {
+     "ar": "80 ريال",
+     "en": "80"
+    },
+    {
+     "ar": "200 ريال",
+     "en": "200"
+    },
+    {
+     "ar": "120 ريال",
+     "en": "120"
+    },
+    {
+     "ar": "320 ريال",
+     "en": "320"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الإيراد 200 − التكاليف 120 = 80 ريال.",
+    "en": "Revenue 200 − costs 120 = 80."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-005",
+   "domain": "commerce",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما المقصود بـ \"رأس المال\" في المشروع؟",
+    "en": "What is \"capital\" in a business?"
+   },
+   "options": [
+    {
+     "ar": "المال والأصول المستخدمة لبدء المشروع وتشغيله",
+     "en": "Money and assets used to start and run it"
+    },
+    {
+     "ar": "الأرباح الشهرية",
+     "en": "Monthly profits"
+    },
+    {
+     "ar": "اسم الشركة",
+     "en": "Company name"
+    },
+    {
+     "ar": "عدد الموظفين",
+     "en": "Number of employees"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "رأس المال هو ما يُستثمر في المشروع من نقود ومعدات.",
+    "en": "Capital is the money and equipment invested."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-006",
+   "domain": "commerce",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الفرق بين \"الإيراد\" و\"الربح\"؟",
+    "en": "What's the difference between revenue and profit?"
+   },
+   "options": [
+    {
+     "ar": "الربح = الإيراد − التكاليف",
+     "en": "Profit = revenue − costs"
+    },
+    {
+     "ar": "لا فرق",
+     "en": "No difference"
+    },
+    {
+     "ar": "الإيراد = الربح − التكاليف",
+     "en": "Revenue = profit − costs"
+    },
+    {
+     "ar": "الربح دائماً أكبر",
+     "en": "Profit is always bigger"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "قد يكون الإيراد كبيراً لكن الربح صغيراً إذا ارتفعت التكاليف.",
+    "en": "Revenue can be large while profit is small if costs are high."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-007",
+   "domain": "commerce",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 16,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "\"نقطة التعادل\" في المشروع هي:",
+    "en": "A business's \"break-even point\" is when:"
+   },
+   "options": [
+    {
+     "ar": "تتساوى الإيرادات مع التكاليف",
+     "en": "Revenue equals costs"
+    },
+    {
+     "ar": "تتضاعف الأرباح",
+     "en": "Profits double"
+    },
+    {
+     "ar": "يُغلق المشروع",
+     "en": "It closes"
+    },
+    {
+     "ar": "يُوظَّف موظف جديد",
+     "en": "A new hire joins"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "بعد نقطة التعادل يبدأ المشروع بتحقيق الربح.",
+    "en": "After break-even, the business starts making profit."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-008",
+   "domain": "commerce",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 18,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "تكلفة المنتج 40 ريال، وتريد هامش ربح 25% من سعر البيع. كم يكون سعر البيع؟",
+    "en": "Cost is 40 SAR and you want a 25% margin on the selling price. What's the price?"
+   },
+   "options": [
+    {
+     "ar": "50 ريال",
+     "en": "50"
+    },
+    {
+     "ar": "53.3 ريال",
+     "en": "53.3"
+    },
+    {
+     "ar": "45 ريال",
+     "en": "45"
+    },
+    {
+     "ar": "60 ريال",
+     "en": "60"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "السعر = التكلفة ÷ (1 − 0.25) = 40 ÷ 0.75 ≈ 53.3 ريال. (50 تعطي هامشاً 20% فقط).",
+    "en": "Price = cost ÷ (1 − 0.25) = 53.3. (50 gives only a 20% margin.)"
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-009",
+   "domain": "commerce",
+   "ageBands": [
+    "C",
+    "D",
+    "E"
+   ],
+   "difficulty": 12,
+   "gender": "female",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الذي يساعد صاحبة مشروع منزلي (مثل الحلويات) على زيادة مبيعاتها؟",
+    "en": "What helps a home-business owner (e.g. desserts) increase sales?"
+   },
+   "options": [
+    {
+     "ar": "جودة ثابتة وتصوير جيد وتسويق عبر التواصل",
+     "en": "Consistent quality, good photos, social marketing"
+    },
+    {
+     "ar": "رفع السعر دون سبب",
+     "en": "Raising prices for no reason"
+    },
+    {
+     "ar": "تغيير الوصفة كل يوم",
+     "en": "Changing the recipe daily"
+    },
+    {
+     "ar": "عدم تحديد سعر",
+     "en": "No fixed price"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الجودة الثابتة والعرض الجذاب والتسويق الذكي أساس نمو المشاريع المنزلية.",
+    "en": "Consistent quality, attractive presentation and smart marketing drive growth."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "com-010",
+   "domain": "commerce",
+   "ageBands": [
+    "C",
+    "D",
+    "E"
+   ],
+   "difficulty": 12,
+   "gender": "male",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أول خطوة قبل فتح مشروع (مثل مغسلة سيارات)؟",
+    "en": "What's the first step before opening a business (e.g. a car wash)?"
+   },
+   "options": [
+    {
+     "ar": "دراسة السوق والمنافسين",
+     "en": "Study the market and competitors"
+    },
+    {
+     "ar": "شراء أغلى المعدات",
+     "en": "Buy the most expensive equipment"
+    },
+    {
+     "ar": "الاقتراض فوراً",
+     "en": "Borrow immediately"
+    },
+    {
+     "ar": "اختيار لون الشعار",
+     "en": "Pick a logo colour"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "دراسة السوق تبيّن هل يوجد طلب كافٍ وما السعر المناسب.",
+    "en": "Market research shows whether demand exists and what price fits."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-001",
+   "domain": "finance",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أين نضع النقود لنوفرها؟",
+    "en": "Where do we put money to save it?"
+   },
+   "options": [
+    {
+     "ar": "في الحصالة",
+     "en": "In a piggy bank"
+    },
+    {
+     "ar": "في سلة المهملات",
+     "en": "In the bin"
+    },
+    {
+     "ar": "تحت المطر",
+     "en": "Out in the rain"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الحصالة تساعدنا على الادخار شيئاً فشيئاً.",
+    "en": "A piggy bank helps us save little by little."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-002",
+   "domain": "finance",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "معك 10 ريال. ما التصرف الذكي؟",
+    "en": "You have 10 riyals. What is the smart choice?"
+   },
+   "options": [
+    {
+     "ar": "أصرف جزءاً وأدّخر جزءاً",
+     "en": "Spend some, save some"
+    },
+    {
+     "ar": "أصرفها كلها فوراً",
+     "en": "Spend it all now"
+    },
+    {
+     "ar": "أرميها",
+     "en": "Throw it away"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "قاعدة بسيطة: ادّخر جزءاً من كل مبلغ تحصل عليه.",
+    "en": "Simple rule: save part of every amount you get."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-003",
+   "domain": "finance",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ادخرت 5 ريال كل أسبوع. كم تجمع في 4 أسابيع؟",
+    "en": "You save 5 riyals a week. How much after 4 weeks?"
+   },
+   "options": [
+    {
+     "ar": "20 ريال",
+     "en": "20"
+    },
+    {
+     "ar": "9 ريال",
+     "en": "9"
+    },
+    {
+     "ar": "15 ريال",
+     "en": "15"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "5 × 4 = 20 ريال.",
+    "en": "5 × 4 = 20."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-004",
+   "domain": "finance",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الفرق بين \"الحاجة\" و\"الرغبة\"؟",
+    "en": "What's the difference between a need and a want?"
+   },
+   "options": [
+    {
+     "ar": "الحاجة ضرورية للحياة والرغبة شيء نحبه وليس ضرورياً",
+     "en": "A need is essential; a want is nice but not essential"
+    },
+    {
+     "ar": "لا فرق",
+     "en": "No difference"
+    },
+    {
+     "ar": "الرغبة أهم دائماً",
+     "en": "Wants always matter more"
+    },
+    {
+     "ar": "الحاجة غالية دائماً",
+     "en": "Needs are always expensive"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الطعام حاجة، أما اللعبة الجديدة فرغبة؛ نقدّم الحاجات أولاً.",
+    "en": "Food is a need, a new toy is a want; needs come first."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-005",
+   "domain": "finance",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما فائدة إعداد \"ميزانية\" شهرية؟",
+    "en": "Why make a monthly budget?"
+   },
+   "options": [
+    {
+     "ar": "لمعرفة الدخل والمصروفات والتحكم فيها",
+     "en": "To know and control income and spending"
+    },
+    {
+     "ar": "لزيادة المصروفات",
+     "en": "To spend more"
+    },
+    {
+     "ar": "لا فائدة",
+     "en": "No benefit"
+    },
+    {
+     "ar": "لإخفاء المال",
+     "en": "To hide money"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الميزانية تمنع الإسراف وتساعدك على الادخار لأهدافك.",
+    "en": "A budget prevents overspending and helps you save for goals."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-006",
+   "domain": "finance",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "قاعدة 50/30/20 في الميزانية تعني:",
+    "en": "The 50/30/20 budgeting rule means:"
+   },
+   "options": [
+    {
+     "ar": "50% للضروريات و30% للرغبات و20% للادخار",
+     "en": "50% needs, 30% wants, 20% savings"
+    },
+    {
+     "ar": "50% ادخار",
+     "en": "50% savings"
+    },
+    {
+     "ar": "20% للضروريات",
+     "en": "20% needs"
+    },
+    {
+     "ar": "30% ضرائب",
+     "en": "30% taxes"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "تقسيم بسيط يضمن تغطية الضروريات وبناء مدخرات.",
+    "en": "A simple split that covers needs and builds savings."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-007",
+   "domain": "finance",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما \"صندوق الطوارئ\"؟",
+    "en": "What is an emergency fund?"
+   },
+   "options": [
+    {
+     "ar": "مدخرات تغطي مصاريف 3–6 أشهر للظروف المفاجئة",
+     "en": "Savings covering 3–6 months of expenses"
+    },
+    {
+     "ar": "قرض بنكي",
+     "en": "A bank loan"
+    },
+    {
+     "ar": "بطاقة ائتمان",
+     "en": "A credit card"
+    },
+    {
+     "ar": "استثمار في الأسهم",
+     "en": "Stock investment"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "يحميك من الاقتراض عند فقدان عمل أو مصروف مفاجئ.",
+    "en": "It protects you from debt when surprises happen."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "fin-008",
+   "domain": "finance",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 19,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "استثمرت 1000 ريال بعائد 10% سنوياً مع إعادة استثمار الأرباح. كم تصبح بعد سنتين؟",
+    "en": "You invest 1000 SAR at 10% a year, reinvesting gains. Value after 2 years?"
+   },
+   "options": [
+    {
+     "ar": "1200",
+     "en": "1200"
+    },
+    {
+     "ar": "1210",
+     "en": "1210"
+    },
+    {
+     "ar": "1100",
+     "en": "1100"
+    },
+    {
+     "ar": "1020",
+     "en": "1020"
+    }
+   ],
+   "answer": 1,
+   "explanation": {
+    "ar": "السنة الأولى 1100، والثانية 1100 × 1.1 = 1210؛ هذا هو \"العائد المركب\".",
+    "en": "Year 1: 1100; year 2: 1100 × 1.1 = 1210 — compound growth."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-001",
+   "domain": "engineering",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أي شكل يتدحرج بسهولة؟",
+    "en": "Which shape rolls easily?"
+   },
+   "options": [
+    {
+     "ar": "الدائرة (العجلة)",
+     "en": "Circle (wheel)"
+    },
+    {
+     "ar": "المربع",
+     "en": "Square"
+    },
+    {
+     "ar": "المثلث",
+     "en": "Triangle"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "العجلات دائرية لأنها تتدحرج بسهولة.",
+    "en": "Wheels are round because circles roll easily."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-002",
+   "domain": "engineering",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا نستخدم لتثبيت مسمار في الخشب؟",
+    "en": "What tool do we use to drive a nail into wood?"
+   },
+   "options": [
+    {
+     "ar": "المطرقة",
+     "en": "Hammer"
+    },
+    {
+     "ar": "الملعقة",
+     "en": "Spoon"
+    },
+    {
+     "ar": "المقص",
+     "en": "Scissors"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المطرقة أداة لدق المسامير.",
+    "en": "A hammer drives nails."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-003",
+   "domain": "engineering",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الذي يجعل المصباح يضيء؟",
+    "en": "What makes a light bulb glow?"
+   },
+   "options": [
+    {
+     "ar": "الكهرباء",
+     "en": "Electricity"
+    },
+    {
+     "ar": "الماء",
+     "en": "Water"
+    },
+    {
+     "ar": "الهواء",
+     "en": "Air"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "يمر التيار الكهربائي في المصباح فيُنتج ضوءاً.",
+    "en": "Electric current passes through the bulb and produces light."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-004",
+   "domain": "engineering",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الآلة البسيطة المستخدمة في المنحدر لرفع الأشياء بجهد أقل؟",
+    "en": "Which simple machine lets you lift loads with less effort using a slope?"
+   },
+   "options": [
+    {
+     "ar": "المستوى المائل",
+     "en": "Inclined plane"
+    },
+    {
+     "ar": "البكرة",
+     "en": "Pulley"
+    },
+    {
+     "ar": "المسمار",
+     "en": "Nail"
+    },
+    {
+     "ar": "الحبل",
+     "en": "Rope"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المستوى المائل يقلل القوة المطلوبة مقابل مسافة أطول.",
+    "en": "An inclined plane reduces force needed over a longer distance."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-005",
+   "domain": "engineering",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "لماذا تُصنع الأسلاك الكهربائية من النحاس؟",
+    "en": "Why are electric wires made of copper?"
+   },
+   "options": [
+    {
+     "ar": "لأنه موصل جيد للكهرباء",
+     "en": "It conducts electricity well"
+    },
+    {
+     "ar": "لأنه خفيف جداً",
+     "en": "It's very light"
+    },
+    {
+     "ar": "لأنه عازل",
+     "en": "It's an insulator"
+    },
+    {
+     "ar": "لأنه رخيص فقط",
+     "en": "Only because it's cheap"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "النحاس من أفضل الموصلات، ويُغلف بالبلاستيك العازل للأمان.",
+    "en": "Copper is an excellent conductor, wrapped in plastic for safety."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-006",
+   "domain": "engineering",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "حسب قانون أوم، إذا كان الجهد 12 فولت والمقاومة 4 أوم، فالتيار:",
+    "en": "By Ohm's law, with 12 V and 4 Ω, the current is:"
+   },
+   "options": [
+    {
+     "ar": "3 أمبير",
+     "en": "3 A"
+    },
+    {
+     "ar": "48 أمبير",
+     "en": "48 A"
+    },
+    {
+     "ar": "8 أمبير",
+     "en": "8 A"
+    },
+    {
+     "ar": "16 أمبير",
+     "en": "16 A"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "التيار = الجهد ÷ المقاومة = 12 ÷ 4 = 3 أمبير.",
+    "en": "I = V ÷ R = 12 ÷ 4 = 3 A."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-007",
+   "domain": "engineering",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في البرمجة، ما \"الحلقة\" (Loop)؟",
+    "en": "In programming, what is a loop?"
+   },
+   "options": [
+    {
+     "ar": "تكرار مجموعة أوامر عدة مرات",
+     "en": "Repeating instructions several times"
+    },
+    {
+     "ar": "خطأ في البرنامج",
+     "en": "A bug"
+    },
+    {
+     "ar": "نوع من الشاشات",
+     "en": "A type of screen"
+    },
+    {
+     "ar": "كلمة مرور",
+     "en": "A password"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الحلقات توفّر كتابة الكود نفسه مرات كثيرة.",
+    "en": "Loops save writing the same code repeatedly."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-008",
+   "domain": "engineering",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "لماذا تُبنى الجسور غالباً على شكل مثلثات (الجملونات)؟",
+    "en": "Why do many bridges use triangle trusses?"
+   },
+   "options": [
+    {
+     "ar": "المثلث شكل ثابت يوزّع الأحمال ولا يتشوه",
+     "en": "Triangles are rigid and spread loads"
+    },
+    {
+     "ar": "لأنه أجمل فقط",
+     "en": "Only for looks"
+    },
+    {
+     "ar": "لأنه أرخص دائماً",
+     "en": "Always cheaper"
+    },
+    {
+     "ar": "لتقليل الطول",
+     "en": "To shorten length"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المثلث لا يتغير شكله تحت الضغط دون تغيير طول أضلاعه.",
+    "en": "A triangle can't deform without changing a side length."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "eng-009",
+   "domain": "engineering",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 19,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما مصدر الطاقة في الألواح الشمسية الكهروضوئية؟",
+    "en": "What do photovoltaic solar panels convert into electricity?"
+   },
+   "options": [
+    {
+     "ar": "ضوء الشمس مباشرة",
+     "en": "Sunlight directly"
+    },
+    {
+     "ar": "حرارة الأرض",
+     "en": "Earth's heat"
+    },
+    {
+     "ar": "الرياح",
+     "en": "Wind"
+    },
+    {
+     "ar": "الماء",
+     "en": "Water"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الخلايا الكهروضوئية تحول الضوء إلى كهرباء مباشرة عبر أشباه الموصلات.",
+    "en": "PV cells turn light directly into electricity via semiconductors."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-001",
+   "domain": "crafts",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا نستخدم لقص الورق؟",
+    "en": "What do we use to cut paper?"
+   },
+   "options": [
+    {
+     "ar": "المقص",
+     "en": "Scissors"
+    },
+    {
+     "ar": "الملعقة",
+     "en": "Spoon"
+    },
+    {
+     "ar": "الفرشاة",
+     "en": "Brush"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المقص أداة القص، ونستخدمه بحذر.",
+    "en": "Scissors cut paper; use them carefully."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-002",
+   "domain": "crafts",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا يحتاج النبات لينمو؟",
+    "en": "What does a plant need to grow?"
+   },
+   "options": [
+    {
+     "ar": "الماء والشمس",
+     "en": "Water and sunlight"
+    },
+    {
+     "ar": "الحلوى",
+     "en": "Candy"
+    },
+    {
+     "ar": "الظلام فقط",
+     "en": "Only darkness"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "النبات يحتاج الماء والضوء والتربة والهواء.",
+    "en": "Plants need water, light, soil and air."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-003",
+   "domain": "crafts",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الأداة التي يستخدمها النجار لقطع الخشب؟",
+    "en": "What tool does a carpenter use to cut wood?"
+   },
+   "options": [
+    {
+     "ar": "المنشار",
+     "en": "Saw"
+    },
+    {
+     "ar": "المكنسة",
+     "en": "Broom"
+    },
+    {
+     "ar": "المسطرة",
+     "en": "Ruler"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المنشار أداة النجار الأساسية للقطع.",
+    "en": "The saw is the carpenter's main cutting tool."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-004",
+   "domain": "crafts",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 8,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "لماذا نقيس مرتين قبل القص؟",
+    "en": "Why measure twice before cutting?"
+   },
+   "options": [
+    {
+     "ar": "لتجنب الخطأ وهدر المواد",
+     "en": "To avoid mistakes and waste"
+    },
+    {
+     "ar": "لإضاعة الوقت",
+     "en": "To waste time"
+    },
+    {
+     "ar": "لأن القياس ممتع فقط",
+     "en": "Only for fun"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "\"قِس مرتين واقطع مرة\" قاعدة ذهبية في كل الحرف.",
+    "en": "\"Measure twice, cut once\" is a golden rule."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-005",
+   "domain": "crafts",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الحرفة السعودية التقليدية المعروفة بنسج سعف النخيل؟",
+    "en": "Which traditional Saudi craft weaves palm fronds?"
+   },
+   "options": [
+    {
+     "ar": "الخوص (السفافة)",
+     "en": "Khoos (palm weaving)"
+    },
+    {
+     "ar": "الحدادة",
+     "en": "Blacksmithing"
+    },
+    {
+     "ar": "الزجاج",
+     "en": "Glassmaking"
+    },
+    {
+     "ar": "الخزف",
+     "en": "Pottery"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الخوص حرفة تراثية تُصنع بها السلال والحُصر من سعف النخيل.",
+    "en": "Khoos makes baskets and mats from palm fronds."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-006",
+   "domain": "crafts",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما فائدة \"السماد العضوي\" (الكمبوست)؟",
+    "en": "What is compost used for?"
+   },
+   "options": [
+    {
+     "ar": "تغذية التربة من بقايا الطعام والنباتات",
+     "en": "Enriching soil from food and plant waste"
+    },
+    {
+     "ar": "تنظيف الملابس",
+     "en": "Cleaning clothes"
+    },
+    {
+     "ar": "وقود للسيارات",
+     "en": "Car fuel"
+    },
+    {
+     "ar": "طلاء الجدران",
+     "en": "Painting walls"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الكمبوست يحوّل النفايات العضوية إلى سماد طبيعي ويقلل النفايات.",
+    "en": "Compost turns organic waste into natural fertiliser."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-007",
+   "domain": "crafts",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "عند استخدام المثقاب الكهربائي، ما أهم إجراء سلامة؟",
+    "en": "What's the key safety step when using a power drill?"
+   },
+   "options": [
+    {
+     "ar": "لبس النظارة الواقية وتثبيت القطعة",
+     "en": "Wear goggles and clamp the piece"
+    },
+    {
+     "ar": "الإمساك بالقطعة باليد فقط",
+     "en": "Hold the piece by hand"
+    },
+    {
+     "ar": "العمل بسرعة دون تركيز",
+     "en": "Work fast without focus"
+    },
+    {
+     "ar": "لبس ملابس واسعة",
+     "en": "Wear loose clothes"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "النظارة تحمي العين، والتثبيت يمنع دوران القطعة.",
+    "en": "Goggles protect eyes; clamping stops the piece spinning."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-008",
+   "domain": "crafts",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "لماذا يُعدّ تعلم حرفة يدوية مفيداً اقتصادياً؟",
+    "en": "Why is learning a craft economically valuable?"
+   },
+   "options": [
+    {
+     "ar": "يمكن أن تتحول لمصدر دخل أو مشروع صغير",
+     "en": "It can become income or a small business"
+    },
+    {
+     "ar": "لا قيمة لها اليوم",
+     "en": "It has no value today"
+    },
+    {
+     "ar": "تمنع التعلم",
+     "en": "It prevents learning"
+    },
+    {
+     "ar": "مكلفة دائماً",
+     "en": "Always costly"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الحرف المتقنة مطلوبة وتفتح باب العمل الحر والمشاريع.",
+    "en": "Skilled crafts are in demand and open freelance paths."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-009",
+   "domain": "crafts",
+   "ageBands": [
+    "B",
+    "C",
+    "D"
+   ],
+   "difficulty": 8,
+   "gender": "female",
+   "type": "mcq",
+   "text": {
+    "ar": "في الخياطة، ما الأداة التي تحمي الإصبع عند دفع الإبرة؟",
+    "en": "In sewing, which tool protects your finger when pushing the needle?"
+   },
+   "options": [
+    {
+     "ar": "الكشتبان",
+     "en": "Thimble"
+    },
+    {
+     "ar": "البكرة",
+     "en": "Spool"
+    },
+    {
+     "ar": "الدبوس",
+     "en": "Pin"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الكشتبان غطاء معدني يوضع على الإصبع.",
+    "en": "A thimble is a metal cap worn on the finger."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "crf-010",
+   "domain": "crafts",
+   "ageBands": [
+    "B",
+    "C",
+    "D"
+   ],
+   "difficulty": 8,
+   "gender": "male",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الأداة المستخدمة لشد البراغي وفكها؟",
+    "en": "Which tool tightens and loosens screws?"
+   },
+   "options": [
+    {
+     "ar": "المفك",
+     "en": "Screwdriver"
+    },
+    {
+     "ar": "المقص",
+     "en": "Scissors"
+    },
+    {
+     "ar": "الفرشاة",
+     "en": "Brush"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المفك يناسب رأس البرغي، سواء مسطحاً أو صليبياً.",
+    "en": "Screwdrivers fit flat or cross-head screws."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-001",
+   "domain": "science",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما لون السماء في النهار الصافي؟",
+    "en": "What colour is a clear daytime sky?"
+   },
+   "options": [
+    {
+     "ar": "أزرق",
+     "en": "Blue"
+    },
+    {
+     "ar": "أخضر",
+     "en": "Green"
+    },
+    {
+     "ar": "أحمر",
+     "en": "Red"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "تبدو السماء زرقاء بسبب تشتت ضوء الشمس.",
+    "en": "The sky looks blue because sunlight scatters."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-002",
+   "domain": "science",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أي حيوان يعيش في الماء؟",
+    "en": "Which animal lives in water?"
+   },
+   "options": [
+    {
+     "ar": "السمكة",
+     "en": "Fish"
+    },
+    {
+     "ar": "الجمل",
+     "en": "Camel"
+    },
+    {
+     "ar": "القطة",
+     "en": "Cat"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "السمك يتنفس في الماء بالخياشيم.",
+    "en": "Fish breathe in water using gills."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-003",
+   "domain": "science",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أقرب نجم إلى الأرض؟",
+    "en": "What is the closest star to Earth?"
+   },
+   "options": [
+    {
+     "ar": "الشمس",
+     "en": "The Sun"
+    },
+    {
+     "ar": "القمر",
+     "en": "The Moon"
+    },
+    {
+     "ar": "المريخ",
+     "en": "Mars"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الشمس نجم، أما القمر فتابع للأرض والمريخ كوكب.",
+    "en": "The Sun is a star; the Moon is a satellite, Mars a planet."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-004",
+   "domain": "science",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما حالة الماء عندما يتجمد؟",
+    "en": "What does water become when it freezes?"
+   },
+   "options": [
+    {
+     "ar": "ثلج (صلب)",
+     "en": "Ice (solid)"
+    },
+    {
+     "ar": "بخار",
+     "en": "Steam"
+    },
+    {
+     "ar": "يبقى سائلاً",
+     "en": "Stays liquid"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "يتجمد الماء عند صفر درجة مئوية.",
+    "en": "Water freezes at 0 °C."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-005",
+   "domain": "science",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الغاز الذي نحتاجه للتنفس؟",
+    "en": "Which gas do we need to breathe?"
+   },
+   "options": [
+    {
+     "ar": "الأكسجين",
+     "en": "Oxygen"
+    },
+    {
+     "ar": "ثاني أكسيد الكربون",
+     "en": "Carbon dioxide"
+    },
+    {
+     "ar": "الهيليوم",
+     "en": "Helium"
+    },
+    {
+     "ar": "النيتروجين",
+     "en": "Nitrogen"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "نستنشق الأكسجين ونزفر ثاني أكسيد الكربون.",
+    "en": "We inhale oxygen and exhale carbon dioxide."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-006",
+   "domain": "science",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم عدد كواكب المجموعة الشمسية؟",
+    "en": "How many planets are in the Solar System?"
+   },
+   "options": [
+    {
+     "ar": "8",
+     "en": "8"
+    },
+    {
+     "ar": "9",
+     "en": "9"
+    },
+    {
+     "ar": "7",
+     "en": "7"
+    },
+    {
+     "ar": "10",
+     "en": "10"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "ثمانية كواكب؛ صُنّف بلوتو كوكباً قزماً عام 2006.",
+    "en": "Eight; Pluto was reclassified as a dwarf planet in 2006."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-007",
+   "domain": "science",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما العضو المسؤول عن ضخ الدم في الجسم؟",
+    "en": "Which organ pumps blood around the body?"
+   },
+   "options": [
+    {
+     "ar": "القلب",
+     "en": "Heart"
+    },
+    {
+     "ar": "الرئة",
+     "en": "Lung"
+    },
+    {
+     "ar": "الكبد",
+     "en": "Liver"
+    },
+    {
+     "ar": "المعدة",
+     "en": "Stomach"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "القلب عضلة تضخ الدم عبر الأوعية الدموية.",
+    "en": "The heart is a muscle pumping blood through vessels."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-008",
+   "domain": "science",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 14,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الرمز الكيميائي للماء؟",
+    "en": "What is the chemical formula of water?"
+   },
+   "options": [
+    {
+     "ar": "H₂O",
+     "en": "H₂O"
+    },
+    {
+     "ar": "CO₂",
+     "en": "CO₂"
+    },
+    {
+     "ar": "O₂",
+     "en": "O₂"
+    },
+    {
+     "ar": "NaCl",
+     "en": "NaCl"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "جزيء الماء: ذرتا هيدروجين وذرة أكسجين.",
+    "en": "Two hydrogen atoms and one oxygen atom."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-009",
+   "domain": "science",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 16,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما وحدة قياس القوة في النظام الدولي؟",
+    "en": "What is the SI unit of force?"
+   },
+   "options": [
+    {
+     "ar": "النيوتن",
+     "en": "Newton"
+    },
+    {
+     "ar": "الجول",
+     "en": "Joule"
+    },
+    {
+     "ar": "الواط",
+     "en": "Watt"
+    },
+    {
+     "ar": "الباسكال",
+     "en": "Pascal"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "النيوتن = كيلوجرام × متر/ثانية².",
+    "en": "1 N = 1 kg·m/s²."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-010",
+   "domain": "science",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 18,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما وظيفة الميتوكوندريا في الخلية؟",
+    "en": "What is the role of mitochondria in a cell?"
+   },
+   "options": [
+    {
+     "ar": "إنتاج الطاقة",
+     "en": "Producing energy"
+    },
+    {
+     "ar": "تخزين المعلومات الوراثية فقط",
+     "en": "Only storing DNA"
+    },
+    {
+     "ar": "صنع البروتين",
+     "en": "Making protein"
+    },
+    {
+     "ar": "حماية الخلية",
+     "en": "Protecting the cell"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "تُسمى \"مصنع الطاقة\" لأنها تنتج جزيئات ATP.",
+    "en": "Called the powerhouse: they produce ATP."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-011",
+   "domain": "science",
+   "ageBands": [
+    "C",
+    "D",
+    "E"
+   ],
+   "difficulty": 12,
+   "gender": "female",
+   "type": "mcq",
+   "text": {
+    "ar": "من أول امرأة سعودية وعربية تصل إلى الفضاء (2023)؟",
+    "en": "Who was the first Saudi and Arab woman in space (2023)?"
+   },
+   "options": [
+    {
+     "ar": "ريانة برناوي",
+     "en": "Rayyanah Barnawi"
+    },
+    {
+     "ar": "حياة سندي",
+     "en": "Hayat Sindi"
+    },
+    {
+     "ar": "غادة المطيري",
+     "en": "Ghada Al-Mutairi"
+    },
+    {
+     "ar": "سارة الأميري",
+     "en": "Sarah Al Amiri"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "ريانة برناوي عالمة أبحاث الخلايا الجذعية، شاركت في مهمة إلى محطة الفضاء الدولية.",
+    "en": "Rayyanah Barnawi, a stem-cell researcher, flew to the ISS."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "sci-012",
+   "domain": "science",
+   "ageBands": [
+    "C",
+    "D",
+    "E"
+   ],
+   "difficulty": 12,
+   "gender": "male",
+   "type": "mcq",
+   "text": {
+    "ar": "من أول رائد فضاء عربي ومسلم (1985)؟",
+    "en": "Who was the first Arab and Muslim astronaut (1985)?"
+   },
+   "options": [
+    {
+     "ar": "الأمير سلطان بن سلمان",
+     "en": "Prince Sultan bin Salman"
+    },
+    {
+     "ar": "هزاع المنصوري",
+     "en": "Hazza Al Mansouri"
+    },
+    {
+     "ar": "علي القرني",
+     "en": "Ali AlQarni"
+    },
+    {
+     "ar": "محمد فارس",
+     "en": "Muhammed Faris"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "شارك الأمير سلطان بن سلمان في رحلة المكوك ديسكفري عام 1985.",
+    "en": "He flew on Space Shuttle Discovery in 1985."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-001",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم إصبعاً في اليد الواحدة؟",
+    "en": "How many fingers are on one hand?"
+   },
+   "options": [
+    {
+     "ar": "5",
+     "en": "5"
+    },
+    {
+     "ar": "3",
+     "en": "3"
+    },
+    {
+     "ar": "10",
+     "en": "10"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "في اليد الواحدة خمسة أصابع.",
+    "en": "One hand has five fingers."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-002",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "معك تفاحتان وأخذت واحدة أخرى. كم أصبح معك؟",
+    "en": "You have 2 apples and get 1 more. How many now?"
+   },
+   "options": [
+    {
+     "ar": "3",
+     "en": "3"
+    },
+    {
+     "ar": "2",
+     "en": "2"
+    },
+    {
+     "ar": "4",
+     "en": "4"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "2 + 1 = 3.",
+    "en": "2 + 1 = 3."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-003",
+   "domain": "math",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أي عدد أكبر؟",
+    "en": "Which number is bigger?"
+   },
+   "options": [
+    {
+     "ar": "7",
+     "en": "7"
+    },
+    {
+     "ar": "4",
+     "en": "4"
+    },
+    {
+     "ar": "2",
+     "en": "2"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "7 أكبر من 4 ومن 2.",
+    "en": "7 is bigger than 4 and 2."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-004",
+   "domain": "math",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم يساوي 6 × 3؟",
+    "en": "What is 6 × 3?"
+   },
+   "options": [
+    {
+     "ar": "18",
+     "en": "18"
+    },
+    {
+     "ar": "9",
+     "en": "9"
+    },
+    {
+     "ar": "15",
+     "en": "15"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "6 × 3 = 6 + 6 + 6 = 18.",
+    "en": "6 × 3 = 6 + 6 + 6 = 18."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-005",
+   "domain": "math",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "نصف 20 يساوي:",
+    "en": "Half of 20 is:"
+   },
+   "options": [
+    {
+     "ar": "10",
+     "en": "10"
+    },
+    {
+     "ar": "5",
+     "en": "5"
+    },
+    {
+     "ar": "15",
+     "en": "15"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "20 ÷ 2 = 10.",
+    "en": "20 ÷ 2 = 10."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-006",
+   "domain": "math",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم يساوي 25% من 80؟",
+    "en": "What is 25% of 80?"
+   },
+   "options": [
+    {
+     "ar": "20",
+     "en": "20"
+    },
+    {
+     "ar": "25",
+     "en": "25"
+    },
+    {
+     "ar": "40",
+     "en": "40"
+    },
+    {
+     "ar": "16",
+     "en": "16"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "25% = ربع، و80 ÷ 4 = 20.",
+    "en": "25% is a quarter: 80 ÷ 4 = 20."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-007",
+   "domain": "math",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "مساحة مستطيل طوله 8 سم وعرضه 5 سم:",
+    "en": "Area of a rectangle 8 cm by 5 cm:"
+   },
+   "options": [
+    {
+     "ar": "40 سم²",
+     "en": "40 cm²"
+    },
+    {
+     "ar": "26 سم²",
+     "en": "26 cm²"
+    },
+    {
+     "ar": "13 سم²",
+     "en": "13 cm²"
+    },
+    {
+     "ar": "45 سم²",
+     "en": "45 cm²"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المساحة = الطول × العرض = 8 × 5 = 40.",
+    "en": "Area = length × width = 40."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-008",
+   "domain": "math",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "حل المعادلة: 3س + 5 = 20",
+    "en": "Solve: 3x + 5 = 20"
+   },
+   "options": [
+    {
+     "ar": "س = 5",
+     "en": "x = 5"
+    },
+    {
+     "ar": "س = 15",
+     "en": "x = 15"
+    },
+    {
+     "ar": "س = 25/3",
+     "en": "x = 25/3"
+    },
+    {
+     "ar": "س = 3",
+     "en": "x = 3"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "3س = 15 ← س = 5.",
+    "en": "3x = 15 → x = 5."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-009",
+   "domain": "math",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "مجموع زوايا المثلث يساوي:",
+    "en": "The angles of a triangle add up to:"
+   },
+   "options": [
+    {
+     "ar": "180°",
+     "en": "180°"
+    },
+    {
+     "ar": "360°",
+     "en": "360°"
+    },
+    {
+     "ar": "90°",
+     "en": "90°"
+    },
+    {
+     "ar": "270°",
+     "en": "270°"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "مجموع زوايا أي مثلث 180 درجة.",
+    "en": "Any triangle's angles sum to 180°."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-010",
+   "domain": "math",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما احتمال ظهور عدد زوجي عند رمي حجر نرد؟",
+    "en": "Probability of rolling an even number on a die?"
+   },
+   "options": [
+    {
+     "ar": "1/2",
+     "en": "1/2"
+    },
+    {
+     "ar": "1/3",
+     "en": "1/3"
+    },
+    {
+     "ar": "1/6",
+     "en": "1/6"
+    },
+    {
+     "ar": "2/3",
+     "en": "2/3"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الأعداد الزوجية 2 و4 و6، أي 3 من 6 = 1/2.",
+    "en": "Evens: 2, 4, 6 → 3 of 6 = 1/2."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "mat-011",
+   "domain": "math",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 19,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما قيمة 2¹⁰؟",
+    "en": "What is 2¹⁰?"
+   },
+   "options": [
+    {
+     "ar": "1024",
+     "en": "1024"
+    },
+    {
+     "ar": "512",
+     "en": "512"
+    },
+    {
+     "ar": "2048",
+     "en": "2048"
+    },
+    {
+     "ar": "100",
+     "en": "100"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "2¹⁰ = 1024، ولهذا الكيلوبايت ≈ 1024 بايت.",
+    "en": "2¹⁰ = 1024 — why a kilobyte ≈ 1024 bytes."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-001",
+   "domain": "arabic",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أول حرف في كلمة \"أسد\"؟",
+    "en": "What is the first letter of the word \"أسد\" (lion)?"
+   },
+   "options": [
+    {
+     "ar": "أ",
+     "en": "أ"
+    },
+    {
+     "ar": "س",
+     "en": "س"
+    },
+    {
+     "ar": "د",
+     "en": "د"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "أسد تبدأ بحرف الألف.",
+    "en": "أسد starts with Alif."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-002",
+   "domain": "arabic",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما عكس كلمة \"كبير\"؟",
+    "en": "What is the opposite of \"كبير\" (big)?"
+   },
+   "options": [
+    {
+     "ar": "صغير",
+     "en": "صغير (small)"
+    },
+    {
+     "ar": "طويل",
+     "en": "طويل (tall)"
+    },
+    {
+     "ar": "سريع",
+     "en": "سريع (fast)"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "عكس كبير: صغير.",
+    "en": "The opposite of كبير is صغير."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-003",
+   "domain": "arabic",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما جمع كلمة \"كتاب\"؟",
+    "en": "What is the plural of \"كتاب\" (book)?"
+   },
+   "options": [
+    {
+     "ar": "كُتُب",
+     "en": "كُتُب"
+    },
+    {
+     "ar": "كاتب",
+     "en": "كاتب"
+    },
+    {
+     "ar": "مكتبة",
+     "en": "مكتبة"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "جمع كتاب: كُتُب (جمع تكسير).",
+    "en": "The plural of كتاب is كُتُب."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-004",
+   "domain": "arabic",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما مرادف كلمة \"سعيد\"؟",
+    "en": "What is a synonym of \"سعيد\" (happy)?"
+   },
+   "options": [
+    {
+     "ar": "فرحان",
+     "en": "فرحان"
+    },
+    {
+     "ar": "حزين",
+     "en": "حزين"
+    },
+    {
+     "ar": "غاضب",
+     "en": "غاضب"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "سعيد وفرحان بمعنى واحد.",
+    "en": "سعيد and فرحان have the same meaning."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-005",
+   "domain": "arabic",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "في جملة \"قرأ الطالبُ الدرسَ\"، ما الفاعل؟",
+    "en": "In \"قرأ الطالبُ الدرسَ\", which word is the subject (فاعل)?"
+   },
+   "options": [
+    {
+     "ar": "الطالبُ",
+     "en": "الطالبُ"
+    },
+    {
+     "ar": "قرأ",
+     "en": "قرأ"
+    },
+    {
+     "ar": "الدرسَ",
+     "en": "الدرسَ"
+    },
+    {
+     "ar": "لا يوجد",
+     "en": "None"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الطالب هو من قام بالفعل، وهو مرفوع.",
+    "en": "الطالب performed the action, so it is the فاعل (nominative)."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-006",
+   "domain": "arabic",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما نوع الهمزة في كلمة \"استخدام\"؟",
+    "en": "What type of hamza is at the start of \"استخدام\"?"
+   },
+   "options": [
+    {
+     "ar": "همزة وصل",
+     "en": "همزة وصل"
+    },
+    {
+     "ar": "همزة قطع",
+     "en": "همزة قطع"
+    },
+    {
+     "ar": "همزة متوسطة",
+     "en": "همزة متوسطة"
+    },
+    {
+     "ar": "لا يوجد همزة",
+     "en": "None"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "مصدر الفعل السداسي تبدأ بهمزة وصل.",
+    "en": "Verbal nouns of six-letter verbs start with همزة وصل."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-007",
+   "domain": "arabic",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 16,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "من الملقب بـ \"أمير الشعراء\"؟",
+    "en": "Who is known as the \"Prince of Poets\"?"
+   },
+   "options": [
+    {
+     "ar": "أحمد شوقي",
+     "en": "Ahmed Shawqi"
+    },
+    {
+     "ar": "المتنبي",
+     "en": "Al-Mutanabbi"
+    },
+    {
+     "ar": "حافظ إبراهيم",
+     "en": "Hafez Ibrahim"
+    },
+    {
+     "ar": "نزار قباني",
+     "en": "Nizar Qabbani"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "بويع أحمد شوقي أميراً للشعراء عام 1927.",
+    "en": "Ahmed Shawqi was crowned Prince of Poets in 1927."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "ara-008",
+   "domain": "arabic",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 18,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما إعراب \"مجتهداً\" في: \"كان الطالبُ مجتهداً\"؟",
+    "en": "What is the case role of \"مجتهداً\" in \"كان الطالبُ مجتهداً\"?"
+   },
+   "options": [
+    {
+     "ar": "خبر كان منصوب",
+     "en": "خبر كان (accusative)"
+    },
+    {
+     "ar": "اسم كان مرفوع",
+     "en": "اسم كان (nominative)"
+    },
+    {
+     "ar": "مفعول به",
+     "en": "Direct object"
+    },
+    {
+     "ar": "حال",
+     "en": "حال"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "كان ترفع الاسم وتنصب الخبر.",
+    "en": "كان makes its subject nominative and its predicate accusative."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-001",
+   "domain": "english",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "What colour is a banana? / ما لون الموز بالإنجليزية؟",
+    "en": "What colour is a banana?"
+   },
+   "options": [
+    {
+     "ar": "Yellow",
+     "en": "Yellow"
+    },
+    {
+     "ar": "Blue",
+     "en": "Blue"
+    },
+    {
+     "ar": "Black",
+     "en": "Black"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الموز لونه أصفر = Yellow.",
+    "en": "A banana is yellow."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-002",
+   "domain": "english",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى كلمة \"Cat\"؟",
+    "en": "What does \"Cat\" mean?"
+   },
+   "options": [
+    {
+     "ar": "قطة",
+     "en": "قطة (cat)"
+    },
+    {
+     "ar": "كلب",
+     "en": "كلب (dog)"
+    },
+    {
+     "ar": "طائر",
+     "en": "طائر (bird)"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "Cat تعني قطة.",
+    "en": "Cat = قطة."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-003",
+   "domain": "english",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما معنى \"Apple\"؟",
+    "en": "What is \"Apple\" in Arabic?"
+   },
+   "options": [
+    {
+     "ar": "تفاحة",
+     "en": "تفاحة"
+    },
+    {
+     "ar": "برتقالة",
+     "en": "برتقالة"
+    },
+    {
+     "ar": "موزة",
+     "en": "موزة"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "Apple = تفاحة.",
+    "en": "Apple = تفاحة."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-004",
+   "domain": "english",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "اختر الصحيح: I ___ a student.",
+    "en": "Choose the correct word: I ___ a student."
+   },
+   "options": [
+    {
+     "ar": "am",
+     "en": "am"
+    },
+    {
+     "ar": "is",
+     "en": "is"
+    },
+    {
+     "ar": "are",
+     "en": "are"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "مع I نستخدم am.",
+    "en": "With I we use am."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-005",
+   "domain": "english",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "What is the plural of \"child\"?",
+    "en": "What is the plural of \"child\"?"
+   },
+   "options": [
+    {
+     "ar": "children",
+     "en": "children"
+    },
+    {
+     "ar": "childs",
+     "en": "childs"
+    },
+    {
+     "ar": "childes",
+     "en": "childes"
+    },
+    {
+     "ar": "childrens",
+     "en": "childrens"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "جمع child شاذ: children.",
+    "en": "Child has an irregular plural: children."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-006",
+   "domain": "english",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "Choose the past tense of \"go\":",
+    "en": "Choose the past tense of \"go\":"
+   },
+   "options": [
+    {
+     "ar": "went",
+     "en": "went"
+    },
+    {
+     "ar": "goed",
+     "en": "goed"
+    },
+    {
+     "ar": "gone",
+     "en": "gone"
+    },
+    {
+     "ar": "goes",
+     "en": "goes"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "go فعل شاذ، ماضيه went.",
+    "en": "Go is irregular: went."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-007",
+   "domain": "english",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "Choose the correct sentence:",
+    "en": "Choose the correct sentence:"
+   },
+   "options": [
+    {
+     "ar": "She doesn't like coffee.",
+     "en": "She doesn't like coffee."
+    },
+    {
+     "ar": "She don't like coffee.",
+     "en": "She don't like coffee."
+    },
+    {
+     "ar": "She not like coffee.",
+     "en": "She not like coffee."
+    },
+    {
+     "ar": "She doesn't likes coffee.",
+     "en": "She doesn't likes coffee."
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "مع she نستخدم doesn't ثم الفعل بدون s.",
+    "en": "With she: doesn't + base verb."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-008",
+   "domain": "english",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "\"Sustainable\" means:",
+    "en": "\"Sustainable\" means:"
+   },
+   "options": [
+    {
+     "ar": "مستدام",
+     "en": "مستدام"
+    },
+    {
+     "ar": "مؤقت",
+     "en": "مؤقت"
+    },
+    {
+     "ar": "مكلف",
+     "en": "مكلف"
+    },
+    {
+     "ar": "سريع",
+     "en": "سريع"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "Sustainable = يمكن الاستمرار فيه دون استنزاف الموارد.",
+    "en": "Able to continue without depleting resources."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "enl-009",
+   "domain": "english",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "If I ___ rich, I would travel the world.",
+    "en": "If I ___ rich, I would travel the world."
+   },
+   "options": [
+    {
+     "ar": "were",
+     "en": "were"
+    },
+    {
+     "ar": "am",
+     "en": "am"
+    },
+    {
+     "ar": "will be",
+     "en": "will be"
+    },
+    {
+     "ar": "be",
+     "en": "be"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الشرط الثاني (غير الواقعي): If + were + would.",
+    "en": "Second conditional: If + were, would + verb."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-001",
+   "domain": "health",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "متى نغسل أيدينا؟",
+    "en": "When should we wash our hands?"
+   },
+   "options": [
+    {
+     "ar": "قبل الأكل وبعده",
+     "en": "Before and after eating"
+    },
+    {
+     "ar": "لا نغسلها أبداً",
+     "en": "Never"
+    },
+    {
+     "ar": "مرة في الأسبوع",
+     "en": "Once a week"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "غسل اليدين يحمينا من الجراثيم.",
+    "en": "Handwashing protects us from germs."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-002",
+   "domain": "health",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم مرة نفرش أسناننا في اليوم؟",
+    "en": "How many times a day should we brush our teeth?"
+   },
+   "options": [
+    {
+     "ar": "مرتين على الأقل",
+     "en": "At least twice"
+    },
+    {
+     "ar": "لا داعي",
+     "en": "No need"
+    },
+    {
+     "ar": "مرة في الشهر",
+     "en": "Once a month"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "نفرش الأسنان صباحاً وقبل النوم.",
+    "en": "Brush in the morning and before bed."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-003",
+   "domain": "health",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أي طعام صحي أكثر؟",
+    "en": "Which food is healthier?"
+   },
+   "options": [
+    {
+     "ar": "الخضار والفواكه",
+     "en": "Vegetables and fruit"
+    },
+    {
+     "ar": "الحلوى",
+     "en": "Candy"
+    },
+    {
+     "ar": "المشروبات الغازية",
+     "en": "Soda"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الخضار والفواكه غنية بالفيتامينات.",
+    "en": "Fruit and vegetables are rich in vitamins."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-004",
+   "domain": "health",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "عند عبور الشارع نعبر من:",
+    "en": "We cross the street at:"
+   },
+   "options": [
+    {
+     "ar": "ممر المشاة",
+     "en": "The pedestrian crossing"
+    },
+    {
+     "ar": "أي مكان",
+     "en": "Anywhere"
+    },
+    {
+     "ar": "بين السيارات",
+     "en": "Between cars"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "ممر المشاة والإشارة يحمياننا من الحوادث.",
+    "en": "Crossings and signals keep us safe."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-005",
+   "domain": "health",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما رقم الهلال الأحمر (الإسعاف) في السعودية؟",
+    "en": "What is the ambulance (Red Crescent) number in Saudi Arabia?"
+   },
+   "options": [
+    {
+     "ar": "997",
+     "en": "997"
+    },
+    {
+     "ar": "998",
+     "en": "998"
+    },
+    {
+     "ar": "999",
+     "en": "999"
+    },
+    {
+     "ar": "911",
+     "en": "911"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "997 للإسعاف، 998 للدفاع المدني، 999 للشرطة، و911 موحّد في بعض المناطق.",
+    "en": "997 ambulance, 998 civil defence, 999 police; 911 unified in some regions."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-006",
+   "domain": "health",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم ساعة نوم يحتاجها طفل في عمر 10 سنوات تقريباً؟",
+    "en": "About how much sleep does a 10-year-old need?"
+   },
+   "options": [
+    {
+     "ar": "9–12 ساعة",
+     "en": "9–12 hours"
+    },
+    {
+     "ar": "4 ساعات",
+     "en": "4 hours"
+    },
+    {
+     "ar": "6 ساعات",
+     "en": "6 hours"
+    },
+    {
+     "ar": "15 ساعة",
+     "en": "15 hours"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "توصي الجمعيات الطبية بـ 9–12 ساعة للأعمار 6–12.",
+    "en": "Medical guidance: 9–12 hours for ages 6–12."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-007",
+   "domain": "health",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أول ما تفعله عند جرح بسيط ينزف؟",
+    "en": "First thing to do for a small bleeding cut?"
+   },
+   "options": [
+    {
+     "ar": "الضغط عليه بقطعة نظيفة",
+     "en": "Press with a clean cloth"
+    },
+    {
+     "ar": "وضع التراب",
+     "en": "Put dirt on it"
+    },
+    {
+     "ar": "تجاهله",
+     "en": "Ignore it"
+    },
+    {
+     "ar": "فركه بقوة",
+     "en": "Rub it hard"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الضغط المباشر يوقف النزيف، ثم التنظيف والتغطية.",
+    "en": "Direct pressure stops bleeding; then clean and cover."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-008",
+   "domain": "health",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الفيتامين الذي يُنتجه الجسم عند التعرض للشمس؟",
+    "en": "Which vitamin does the body make in sunlight?"
+   },
+   "options": [
+    {
+     "ar": "فيتامين د",
+     "en": "Vitamin D"
+    },
+    {
+     "ar": "فيتامين ج",
+     "en": "Vitamin C"
+    },
+    {
+     "ar": "فيتامين أ",
+     "en": "Vitamin A"
+    },
+    {
+     "ar": "فيتامين ب12",
+     "en": "Vitamin B12"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "فيتامين د مهم لصحة العظام.",
+    "en": "Vitamin D is important for bones."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-009",
+   "domain": "health",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما المعدل الطبيعي لنبض القلب للبالغ أثناء الراحة؟",
+    "en": "What is a normal resting heart rate for an adult?"
+   },
+   "options": [
+    {
+     "ar": "60–100 نبضة/دقيقة",
+     "en": "60–100 bpm"
+    },
+    {
+     "ar": "20–40",
+     "en": "20–40"
+    },
+    {
+     "ar": "120–160",
+     "en": "120–160"
+    },
+    {
+     "ar": "200+",
+     "en": "200+"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المعدل الطبيعي 60–100، والرياضيون قد يكون أقل.",
+    "en": "Normal is 60–100 bpm; athletes may be lower."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-010",
+   "domain": "health",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 14,
+   "gender": "female",
+   "type": "mcq",
+   "text": {
+    "ar": "ما المعدن الذي تحتاجه الفتيات بشكل خاص في سن البلوغ لتجنب فقر الدم؟",
+    "en": "Which mineral do girls especially need in puberty to avoid anaemia?"
+   },
+   "options": [
+    {
+     "ar": "الحديد",
+     "en": "Iron"
+    },
+    {
+     "ar": "الصوديوم",
+     "en": "Sodium"
+    },
+    {
+     "ar": "الرصاص",
+     "en": "Lead"
+    },
+    {
+     "ar": "الزئبق",
+     "en": "Mercury"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الحديد موجود في اللحوم والعدس والسبانخ، ويُمتص أفضل مع فيتامين ج.",
+    "en": "Iron is in meat, lentils and spinach; vitamin C helps absorption."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "hlt-011",
+   "domain": "health",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 14,
+   "gender": "male",
+   "type": "mcq",
+   "text": {
+    "ar": "قبل رفع الأوزان في النادي، ما الأهم لتجنب الإصابة؟",
+    "en": "Before lifting weights, what matters most to avoid injury?"
+   },
+   "options": [
+    {
+     "ar": "الإحماء وتعلّم الطريقة الصحيحة",
+     "en": "Warm-up and correct technique"
+    },
+    {
+     "ar": "رفع أثقل وزن فوراً",
+     "en": "Lift the heaviest weight at once"
+    },
+    {
+     "ar": "عدم شرب الماء",
+     "en": "Avoid water"
+    },
+    {
+     "ar": "التمرين يومياً بلا راحة",
+     "en": "Train daily with no rest"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الإحماء والأسلوب الصحيح والتدرج تحمي العضلات والمفاصل.",
+    "en": "Warm-up, form and gradual progress protect muscles and joints."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-001",
+   "domain": "environment",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أين نرمي النفايات؟",
+    "en": "Where do we throw rubbish?"
+   },
+   "options": [
+    {
+     "ar": "في سلة المهملات",
+     "en": "In the bin"
+    },
+    {
+     "ar": "في الشارع",
+     "en": "On the street"
+    },
+    {
+     "ar": "في البحر",
+     "en": "In the sea"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "رمي النفايات في مكانها يحافظ على نظافة البيئة.",
+    "en": "Binning rubbish keeps the environment clean."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-002",
+   "domain": "environment",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا نفعل بالصنبور بعد غسل اليدين؟",
+    "en": "What do we do with the tap after washing hands?"
+   },
+   "options": [
+    {
+     "ar": "نغلقه",
+     "en": "Turn it off"
+    },
+    {
+     "ar": "نتركه مفتوحاً",
+     "en": "Leave it running"
+    },
+    {
+     "ar": "نكسره",
+     "en": "Break it"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "إغلاق الصنبور يوفر الماء.",
+    "en": "Turning off the tap saves water."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-003",
+   "domain": "environment",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أي هذه المواد يمكن إعادة تدويرها؟",
+    "en": "Which of these can be recycled?"
+   },
+   "options": [
+    {
+     "ar": "علبة الألمنيوم",
+     "en": "Aluminium can"
+    },
+    {
+     "ar": "قشر الموز",
+     "en": "Banana peel"
+    },
+    {
+     "ar": "المنديل المستعمل",
+     "en": "Used tissue"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "علب الألمنيوم تُعاد تدويرها بلا حدود تقريباً.",
+    "en": "Aluminium cans can be recycled almost endlessly."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-004",
+   "domain": "environment",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 7,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا تعني الأسهم الثلاثة على شكل مثلث على العبوات؟",
+    "en": "What do three arrows in a triangle on packaging mean?"
+   },
+   "options": [
+    {
+     "ar": "قابل لإعادة التدوير",
+     "en": "Recyclable"
+    },
+    {
+     "ar": "خطر",
+     "en": "Danger"
+    },
+    {
+     "ar": "ممنوع اللمس",
+     "en": "Do not touch"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "رمز إعادة التدوير، وقد يحتوي رقماً يدل على نوع البلاستيك.",
+    "en": "The recycling symbol; a number may show the plastic type."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-005",
+   "domain": "environment",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما المقصود بالقاعدة 3R؟",
+    "en": "What is the 3R rule?"
+   },
+   "options": [
+    {
+     "ar": "التقليل، إعادة الاستخدام، إعادة التدوير",
+     "en": "Reduce, Reuse, Recycle"
+    },
+    {
+     "ar": "اقرأ، اكتب، ارسم",
+     "en": "Read, Write, Draw"
+    },
+    {
+     "ar": "اجرِ، اقفز، ارتح",
+     "en": "Run, Jump, Rest"
+    },
+    {
+     "ar": "لا شيء مما سبق",
+     "en": "None"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الأولوية للتقليل ثم إعادة الاستخدام ثم التدوير.",
+    "en": "Reduce first, then reuse, then recycle."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-006",
+   "domain": "environment",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "كم سنة تقريباً تحتاج قارورة بلاستيكية لتتحلل؟",
+    "en": "Roughly how long does a plastic bottle take to break down?"
+   },
+   "options": [
+    {
+     "ar": "حوالي 450 سنة",
+     "en": "About 450 years"
+    },
+    {
+     "ar": "سنة واحدة",
+     "en": "1 year"
+    },
+    {
+     "ar": "10 سنوات",
+     "en": "10 years"
+    },
+    {
+     "ar": "أسبوع",
+     "en": "A week"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "تقديرات شائعة تصل إلى مئات السنين، ولذلك نقلل البلاستيك أحادي الاستخدام.",
+    "en": "Estimates run to hundreds of years — so cut single-use plastic."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-007",
+   "domain": "environment",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما هي \"مبادرة السعودية الخضراء\"؟",
+    "en": "What is the Saudi Green Initiative?"
+   },
+   "options": [
+    {
+     "ar": "مبادرة تشمل زراعة 10 مليارات شجرة وخفض الانبعاثات",
+     "en": "Planting 10 billion trees and cutting emissions"
+    },
+    {
+     "ar": "ملعب كرة قدم",
+     "en": "A football stadium"
+    },
+    {
+     "ar": "نوع سيارة",
+     "en": "A car model"
+    },
+    {
+     "ar": "تطبيق ألعاب",
+     "en": "A gaming app"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "أُطلقت عام 2021 للتشجير وحماية البيئة ومواجهة التغير المناخي.",
+    "en": "Launched in 2021 for afforestation and climate action."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-008",
+   "domain": "environment",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الغاز الرئيسي المسبب للاحتباس الحراري من حرق الوقود؟",
+    "en": "Which main greenhouse gas comes from burning fuel?"
+   },
+   "options": [
+    {
+     "ar": "ثاني أكسيد الكربون",
+     "en": "Carbon dioxide"
+    },
+    {
+     "ar": "الأكسجين",
+     "en": "Oxygen"
+    },
+    {
+     "ar": "الهيليوم",
+     "en": "Helium"
+    },
+    {
+     "ar": "الأرغون",
+     "en": "Argon"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "CO₂ يحبس الحرارة في الغلاف الجوي.",
+    "en": "CO₂ traps heat in the atmosphere."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-009",
+   "domain": "environment",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما مفهوم \"الاقتصاد الدائري\"؟",
+    "en": "What is the \"circular economy\"?"
+   },
+   "options": [
+    {
+     "ar": "إبقاء المواد قيد الاستخدام عبر إعادة الاستخدام والتدوير بدل رميها",
+     "en": "Keeping materials in use via reuse and recycling"
+    },
+    {
+     "ar": "اقتصاد يعتمد على النفط",
+     "en": "An oil-based economy"
+    },
+    {
+     "ar": "شراء أكثر",
+     "en": "Buying more"
+    },
+    {
+     "ar": "نظام ضرائب",
+     "en": "A tax system"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "بديل لنموذج \"خُذ – اصنع – ارمِ\"، ويقلل النفايات والتكلفة.",
+    "en": "An alternative to take–make–dispose that cuts waste and cost."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "env-010",
+   "domain": "environment",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 19,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما الطريقة الأفضل بيئياً للتعامل مع النفايات العضوية (بقايا الطعام)؟",
+    "en": "What is the most eco-friendly way to handle food waste?"
+   },
+   "options": [
+    {
+     "ar": "التسميد أو الهضم اللاهوائي لإنتاج سماد وغاز حيوي",
+     "en": "Composting or anaerobic digestion for compost and biogas"
+    },
+    {
+     "ar": "الحرق المكشوف",
+     "en": "Open burning"
+    },
+    {
+     "ar": "الدفن في المرادم دائماً",
+     "en": "Always landfill"
+    },
+    {
+     "ar": "رميها في البحر",
+     "en": "Dumping at sea"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "تحويلها لسماد أو طاقة يقلل غاز الميثان من المرادم.",
+    "en": "Turning it into compost or energy reduces landfill methane."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-001",
+   "domain": "citizenship",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 2,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما لون علم المملكة العربية السعودية؟",
+    "en": "What colour is the flag of Saudi Arabia?"
+   },
+   "options": [
+    {
+     "ar": "أخضر",
+     "en": "Green"
+    },
+    {
+     "ar": "أحمر",
+     "en": "Red"
+    },
+    {
+     "ar": "أزرق",
+     "en": "Blue"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "العلم أخضر وعليه الشهادتان وسيف.",
+    "en": "The flag is green with the Shahada and a sword."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-002",
+   "domain": "citizenship",
+   "ageBands": [
+    "A",
+    "B"
+   ],
+   "difficulty": 4,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما عاصمة المملكة العربية السعودية؟",
+    "en": "What is the capital of Saudi Arabia?"
+   },
+   "options": [
+    {
+     "ar": "الرياض",
+     "en": "Riyadh"
+    },
+    {
+     "ar": "جدة",
+     "en": "Jeddah"
+    },
+    {
+     "ar": "الدمام",
+     "en": "Dammam"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الرياض هي العاصمة.",
+    "en": "Riyadh is the capital."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-003",
+   "domain": "citizenship",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 6,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "متى يكون اليوم الوطني السعودي؟",
+    "en": "When is Saudi National Day?"
+   },
+   "options": [
+    {
+     "ar": "23 سبتمبر",
+     "en": "23 September"
+    },
+    {
+     "ar": "1 يناير",
+     "en": "1 January"
+    },
+    {
+     "ar": "22 فبراير",
+     "en": "22 February"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "23 سبتمبر ذكرى توحيد المملكة عام 1932، و22 فبراير يوم التأسيس.",
+    "en": "23 Sept marks unification (1932); 22 Feb is Founding Day."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-004",
+   "domain": "citizenship",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 9,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أكبر قارة في العالم مساحةً؟",
+    "en": "Which is the largest continent by area?"
+   },
+   "options": [
+    {
+     "ar": "آسيا",
+     "en": "Asia"
+    },
+    {
+     "ar": "أفريقيا",
+     "en": "Africa"
+    },
+    {
+     "ar": "أوروبا",
+     "en": "Europe"
+    },
+    {
+     "ar": "أستراليا",
+     "en": "Australia"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "آسيا أكبر القارات مساحة وسكاناً.",
+    "en": "Asia is largest in area and population."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-005",
+   "domain": "citizenship",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 11,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "من مؤسس المملكة العربية السعودية الحديثة؟",
+    "en": "Who founded the modern Kingdom of Saudi Arabia?"
+   },
+   "options": [
+    {
+     "ar": "الملك عبدالعزيز آل سعود",
+     "en": "King Abdulaziz Al Saud"
+    },
+    {
+     "ar": "الملك فيصل",
+     "en": "King Faisal"
+    },
+    {
+     "ar": "الملك فهد",
+     "en": "King Fahd"
+    },
+    {
+     "ar": "الملك خالد",
+     "en": "King Khalid"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "وحّد الملك عبدالعزيز المملكة وأعلن قيامها عام 1932.",
+    "en": "King Abdulaziz unified and declared the Kingdom in 1932."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-006",
+   "domain": "citizenship",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أطول نهر في العالم (حسب أغلب المصادر)؟",
+    "en": "What is the longest river in the world (per most sources)?"
+   },
+   "options": [
+    {
+     "ar": "النيل",
+     "en": "The Nile"
+    },
+    {
+     "ar": "الأمازون",
+     "en": "The Amazon"
+    },
+    {
+     "ar": "الفرات",
+     "en": "The Euphrates"
+    },
+    {
+     "ar": "الدانوب",
+     "en": "The Danube"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "النيل حوالي 6650 كم، مع جدل علمي حول الأمازون.",
+    "en": "The Nile ~6,650 km, though some argue for the Amazon."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-007",
+   "domain": "citizenship",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أهمية التصويت والمشاركة المجتمعية؟",
+    "en": "Why does civic participation matter?"
+   },
+   "options": [
+    {
+     "ar": "تساعد على تطوير المجتمع واتخاذ قرارات أفضل",
+     "en": "It helps improve society and decisions"
+    },
+    {
+     "ar": "لا أهمية لها",
+     "en": "It doesn't matter"
+    },
+    {
+     "ar": "مضيعة للوقت",
+     "en": "A waste of time"
+    },
+    {
+     "ar": "للكبار فقط",
+     "en": "Only for elders"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "المشاركة والتطوع يعززان الانتماء والتنمية.",
+    "en": "Participation and volunteering build belonging and development."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "cit-008",
+   "domain": "citizenship",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أي منظمة دولية مقرها الرئيسي في نيويورك وتضم معظم دول العالم؟",
+    "en": "Which global organisation is headquartered in New York with almost all countries as members?"
+   },
+   "options": [
+    {
+     "ar": "الأمم المتحدة",
+     "en": "United Nations"
+    },
+    {
+     "ar": "جامعة الدول العربية",
+     "en": "Arab League"
+    },
+    {
+     "ar": "الاتحاد الأوروبي",
+     "en": "European Union"
+    },
+    {
+     "ar": "منظمة أوبك",
+     "en": "OPEC"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "تأسست الأمم المتحدة عام 1945 وتضم 193 دولة.",
+    "en": "Founded 1945; 193 member states."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-001",
+   "domain": "life_skills",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 1,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ماذا نقول عندما يساعدنا أحد؟",
+    "en": "What do we say when someone helps us?"
+   },
+   "options": [
+    {
+     "ar": "شكراً",
+     "en": "Thank you"
+    },
+    {
+     "ar": "لا شيء",
+     "en": "Nothing"
+    },
+    {
+     "ar": "اذهب",
+     "en": "Go away"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الشكر من الأخلاق الجميلة.",
+    "en": "Saying thank you is good manners."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-002",
+   "domain": "life_skills",
+   "ageBands": [
+    "A"
+   ],
+   "difficulty": 3,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "إذا ضعت في السوق، لمن تذهب؟",
+    "en": "If you get lost in a mall, who should you go to?"
+   },
+   "options": [
+    {
+     "ar": "موظف الأمن أو موظف المتجر",
+     "en": "A security guard or shop staff"
+    },
+    {
+     "ar": "أي شخص غريب في الخارج",
+     "en": "Any stranger outside"
+    },
+    {
+     "ar": "أخرج وحدي للشارع",
+     "en": "Walk out to the street alone"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "اطلب المساعدة من موظف رسمي وابقَ داخل المكان.",
+    "en": "Ask an official staff member and stay inside."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-003",
+   "domain": "life_skills",
+   "ageBands": [
+    "B"
+   ],
+   "difficulty": 5,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "شخص غريب على الإنترنت يطلب صورتك أو عنوانك. ماذا تفعل؟",
+    "en": "A stranger online asks for your photo or address. What do you do?"
+   },
+   "options": [
+    {
+     "ar": "أرفض وأخبر والديّ",
+     "en": "Refuse and tell my parents"
+    },
+    {
+     "ar": "أرسلها فوراً",
+     "en": "Send it right away"
+    },
+    {
+     "ar": "أطلب منه هدية",
+     "en": "Ask for a gift"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "لا نشارك معلوماتنا الشخصية أبداً، ونخبر الوالدين.",
+    "en": "Never share personal info; tell your parents."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-004",
+   "domain": "life_skills",
+   "ageBands": [
+    "B",
+    "C"
+   ],
+   "difficulty": 8,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "لديك واجب ولعب. ما الترتيب الأفضل؟",
+    "en": "You have homework and playtime. What's the best order?"
+   },
+   "options": [
+    {
+     "ar": "الواجب أولاً ثم اللعب",
+     "en": "Homework first, then play"
+    },
+    {
+     "ar": "اللعب طوال اليوم",
+     "en": "Play all day"
+    },
+    {
+     "ar": "لا أعمل الواجب",
+     "en": "Skip homework"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "إنجاز المهم أولاً يجعل وقت اللعب ممتعاً بلا قلق.",
+    "en": "Doing important tasks first makes play stress-free."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-005",
+   "domain": "life_skills",
+   "ageBands": [
+    "C"
+   ],
+   "difficulty": 10,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أفضل كلمة مرور؟",
+    "en": "Which is the best password?"
+   },
+   "options": [
+    {
+     "ar": "Sa#7kLm!29q",
+     "en": "Sa#7kLm!29q"
+    },
+    {
+     "ar": "123456",
+     "en": "123456"
+    },
+    {
+     "ar": "password",
+     "en": "password"
+    },
+    {
+     "ar": "اسمي",
+     "en": "My name"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "كلمة المرور القوية طويلة وتجمع حروفاً وأرقاماً ورموزاً.",
+    "en": "Strong passwords are long and mix letters, numbers and symbols."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-006",
+   "domain": "life_skills",
+   "ageBands": [
+    "D"
+   ],
+   "difficulty": 13,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "اختلفت مع صديقك. ما أفضل تصرف؟",
+    "en": "You disagree with a friend. What's best?"
+   },
+   "options": [
+    {
+     "ar": "أستمع له وأعبّر عن رأيي بهدوء",
+     "en": "Listen and calmly share my view"
+    },
+    {
+     "ar": "أصرخ",
+     "en": "Shout"
+    },
+    {
+     "ar": "أقاطعه للأبد",
+     "en": "Cut him off forever"
+    },
+    {
+     "ar": "أنشر الخلاف على الإنترنت",
+     "en": "Post it online"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "الحوار الهادئ والاستماع يحلان معظم الخلافات.",
+    "en": "Calm dialogue and listening resolve most conflicts."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-007",
+   "domain": "life_skills",
+   "ageBands": [
+    "D",
+    "E"
+   ],
+   "difficulty": 15,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "وصلتك رسالة: \"ربحت جائزة، أرسل رمز التحقق\". ماذا تفعل؟",
+    "en": "A message says \"You won a prize, send the verification code\". What do you do?"
+   },
+   "options": [
+    {
+     "ar": "أتجاهلها ولا أشارك الرمز أبداً",
+     "en": "Ignore it and never share the code"
+    },
+    {
+     "ar": "أرسل الرمز",
+     "en": "Send the code"
+    },
+    {
+     "ar": "أتصل وأعطيهم بياناتي البنكية",
+     "en": "Call and give bank details"
+    },
+    {
+     "ar": "أنشرها لأصدقائي",
+     "en": "Forward to friends"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "هذا احتيال شائع؛ الجهات الرسمية لا تطلب رمز التحقق.",
+    "en": "A common scam; legitimate bodies never ask for OTP codes."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-008",
+   "domain": "life_skills",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 17,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "ما أهم عنصر في سيرة ذاتية ناجحة للتقديم على وظيفة؟",
+    "en": "What matters most in a successful CV?"
+   },
+   "options": [
+    {
+     "ar": "إنجازات واضحة ومهارات مرتبطة بالوظيفة",
+     "en": "Clear achievements and relevant skills"
+    },
+    {
+     "ar": "صفحات كثيرة",
+     "en": "Many pages"
+    },
+    {
+     "ar": "ألوان كثيرة",
+     "en": "Lots of colours"
+    },
+    {
+     "ar": "صورة كبيرة فقط",
+     "en": "Just a big photo"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "السيرة القوية مختصرة وتُبرز إنجازات قابلة للقياس.",
+    "en": "A strong CV is concise with measurable achievements."
+   },
+   "status": "published",
+   "source": "system"
+  },
+  {
+   "id": "lif-009",
+   "domain": "life_skills",
+   "ageBands": [
+    "E"
+   ],
+   "difficulty": 18,
+   "gender": "all",
+   "type": "mcq",
+   "text": {
+    "ar": "أسلوب \"بومودورو\" لإدارة الوقت يعني:",
+    "en": "The Pomodoro technique means:"
+   },
+   "options": [
+    {
+     "ar": "العمل 25 دقيقة بتركيز ثم استراحة قصيرة",
+     "en": "25 focused minutes, then a short break"
+    },
+    {
+     "ar": "العمل بلا توقف",
+     "en": "Working non-stop"
+    },
+    {
+     "ar": "النوم 25 دقيقة",
+     "en": "Sleeping 25 minutes"
+    },
+    {
+     "ar": "تأجيل المهام",
+     "en": "Postponing tasks"
+    }
+   ],
+   "answer": 0,
+   "explanation": {
+    "ar": "يرفع التركيز ويقلل الإرهاق.",
+    "en": "Boosts focus and reduces fatigue."
+   },
+   "status": "published",
+   "source": "system"
+  }
+ ]
+}
