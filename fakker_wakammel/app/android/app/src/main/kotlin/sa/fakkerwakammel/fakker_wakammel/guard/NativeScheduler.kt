@@ -7,7 +7,8 @@ package sa.fakkerwakammel.fakker_wakammel.guard
  */
 enum class BreakMode { FIXED, SMART, AUTO }
 enum class ContentKind { VIDEO, GAME }
-enum class Signal { TOUCH, MEDIA_PLAYING, MEDIA_PAUSED, MEDIA_ENDED, LEVEL_COMPLETE, MENU_SCREEN, APP_SWITCH }
+/** CONTENT_SWIPE = scrolled to the next reel / post / short (Instagram, TikTok, YouTube Shorts). */
+enum class Signal { TOUCH, MEDIA_PLAYING, MEDIA_PAUSED, MEDIA_ENDED, LEVEL_COMPLETE, MENU_SCREEN, APP_SWITCH, CONTENT_SWIPE }
 enum class Phase { WATCHING, SEEKING, WARNING, DUE }
 
 /** Names match the Dart BreakReason enum so logs can be merged directly. */
@@ -74,6 +75,8 @@ class NativeScheduler(
         if (!canTakeNatural) return
         val natural = when (s) {
             Signal.MEDIA_ENDED -> BreakReason.VIDEO_ENDED
+            // In a game a scroll is part of play; in a feed it is the gap between two videos.
+            Signal.CONTENT_SWIPE -> if (kind == ContentKind.VIDEO) BreakReason.VIDEO_ENDED else null
             Signal.LEVEL_COMPLETE, Signal.MENU_SCREEN -> BreakReason.LEVEL_COMPLETE
             Signal.MEDIA_PAUSED -> BreakReason.PAUSED
             Signal.APP_SWITCH -> BreakReason.APP_SWITCH

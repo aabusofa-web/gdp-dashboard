@@ -89,8 +89,12 @@ class GuardService : AccessibilityService() {
         val pkg = e?.packageName?.toString() ?: return
         when (e.eventType) {
             AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED -> onWindow(pkg, e.className?.toString() ?: "")
-            AccessibilityEvent.TYPE_VIEW_CLICKED, AccessibilityEvent.TYPE_VIEW_LONG_CLICKED,
-            AccessibilityEvent.TYPE_VIEW_SCROLLED -> if (pkg == currentPkg) scheduler?.signal(Signal.TOUCH)
+            AccessibilityEvent.TYPE_VIEW_CLICKED, AccessibilityEvent.TYPE_VIEW_LONG_CLICKED -> if (pkg == currentPkg) scheduler?.signal(Signal.TOUCH)
+            AccessibilityEvent.TYPE_VIEW_SCROLLED -> if (pkg == currentPkg) {
+                scheduler?.signal(Signal.TOUCH)
+                scheduler?.signal(Signal.CONTENT_SWIPE)
+                checkDue()
+            }
         }
     }
 

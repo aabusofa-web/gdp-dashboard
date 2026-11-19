@@ -91,6 +91,20 @@ void main() {
       expect(s.elapsed, 160);
     });
 
+    test('swiping to the next reel is a natural break in feeds, not in games', () {
+      final feed = BreakScheduler(mode: BreakMode.smart, targetSeconds: 100, graceSeconds: 60);
+      runFor(feed, 90);
+      feed.signal(ActivitySignal.contentSwipe);
+      expect(feed.reason, BreakReason.videoEnded);
+      final game = BreakScheduler(mode: BreakMode.smart, targetSeconds: 100, graceSeconds: 60, kind: ContentKind.game);
+      for (var i = 0; i < 95; i++) {
+        game.signal(ActivitySignal.touch);
+        game.tick();
+      }
+      game.signal(ActivitySignal.contentSwipe);
+      expect(game.phase, isNot(SchedulerPhase.due));
+    });
+
     test('auto mode picks the interval from the age band', () {
       final st = AppSettings(breakMode: BreakMode.auto);
       expect(BreakScheduler.fromSettings(st, AgeBand.a).targetSeconds, 10 * 60);

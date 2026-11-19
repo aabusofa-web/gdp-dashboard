@@ -79,6 +79,21 @@ class NativeSchedulerTest {
         assertEquals(BreakReason.PAUSED, s.reason)
     }
 
+    @Test fun swipingToNextReelIsANaturalBreakInFeeds() {
+        val feed = NativeScheduler(BreakMode.SMART, 100, 60)
+        run(feed, 50)
+        feed.signal(Signal.CONTENT_SWIPE)
+        assertEquals("not before 85%", Phase.WATCHING, feed.phase)
+        run(feed, 40)
+        feed.signal(Signal.CONTENT_SWIPE)
+        assertEquals(BreakReason.VIDEO_ENDED, feed.reason)
+
+        val game = NativeScheduler(BreakMode.SMART, 100, 60, kind = ContentKind.GAME)
+        repeat(95) { game.signal(Signal.TOUCH); game.tick() }
+        game.signal(Signal.CONTENT_SWIPE)
+        assertNotEquals("a scroll inside a game is play, not a pause", Phase.DUE, game.phase)
+    }
+
     @Test fun reasonNamesMatchDart() {
         assertEquals("videoEnded", BreakReason.VIDEO_ENDED.dartName)
         assertEquals("graceTimeout", BreakReason.GRACE_TIMEOUT.dartName)
